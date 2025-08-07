@@ -1,0 +1,247 @@
+{
+    "questions":[
+        {
+            "question":"The maximum value of x such that the edge between the nodes B and C is included in every minimum spanning tree of the given graph is _________. (Answer in integer)",
+            "image":"../questionbank/daa1.png",
+            "type":"numerical",
+            "answer":5
+        },
+        {
+            "question":"Consider the string abbccddeee. Each letter in the string must be assigned a binary code satisfying the following properties:<br>For any two letters, the code assigned to one letter must not be a prefix of the code assigned to the other letter<br>.For any two letters of the same frequency, the letter which occurs earlier in the dictionary order is assigned a code whose length is at most the length of the code assigned to the other letter.<br>Among the set of all binary code assignments which satisfy the above two properties, what is the minimum length of the encoded string?",
+            "options":["21","23","25","30"],
+            "answer":"23"
+        },
+        {
+            "question":"Let G be a connected undirected weighted graph. Consider the following two statements.<br><br>S1: There exists a minimum weight edge in G which is present in every minimum spanning tree of G.<br>S2: If every edge in G has distinct weight, then G has a unique minimum spanning tree.<br><br>Which one of the following options is correct?",
+            "options":["Both S1 and S2 are true","S1 is true and S2 is false","S1 is false and S2 is true","Both S1 and S2 are false"],
+            "answer":"S1 is false and S2 is true"
+        },
+        {
+            "question":"Consider the following undirected graph with edge weights as shown.The number of minimum-weight spanning trees of the graph is __________",
+            "image":"../questionbank/daa2.png",
+            "type":"numerical",
+            "answer":3
+        },
+        {
+            "question":"Consider the following array.Which algorithm out of the following options uses the least number of comparisons (among the array elements) to sort the above array in ascending order?",
+            "image":"../questionbank/daa3.png",
+            "options":["Selection sort","Mergesort","Insertion sort","Quicksort using the last element as pivot"],
+            "answer":"Insertion sort"
+        },
+        {
+            "question":"Which one of the following options arranges the functions in the increasing order of asymptotic growth rate?",
+            "image":"../questionbank/daa4.png",
+            "options":["f3,f2,f1","f2,f1,f3","f1,f2,f3","f2,f3,f1"],
+            "answer":"f2,f3,f1"
+        },
+        {
+            "question":"Of the following sort algorithms, which has execution time that is least dependant on initial ordering of the input?",
+            "options":["Insertion sort","Quick sort","Merge sort","Selection sort"],
+            "answer":"Merge sort"
+        },
+        {
+            "question":"What is the complexity of the following code?",
+            "image":"../questionbank/daa5.png",
+            "options":["O(n^2)","O(n*logn)","O(n)","O(n*log(logn)))"],
+            "answer":"O(n)"
+        },
+        {
+            "question":"Huffman tree is constructed for the following data :{A,B,C,D,E} with frequency {0.17, 0.11, 0.24, 0.33 and 0.15} respectively. 100 00 01101 is decoded as",
+            "options":["BACE","CADE","BAD","CADD"],
+            "answer":"BACE"
+        },
+        {
+            "question":"G is an undirected graph with vertex set {v1, v2, v3, v4, v5, v6, v7} and edge set {v1v2, v1v3, v1v4 ,v2v4, v2v5, v3v4, v4v5, v4v6, v5v6, v6v7 }. A breadth first search of the graph is performed with v1 as the root node. Which of the following is a tree edge?",
+            "options":["v2v4","v1v4","v4v5","v3v4"],
+            "answer":"v1v4"
+        },
+        {
+            "question":"",
+            "image":"../questionbank/daa6.png",
+            "type":"numerical",
+            "answer":99
+        },
+        
+              {
+                "question": "What is the time complexity of binary search in a sorted array?",
+                "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+                "answer": "O(log n)",
+                "marks": 1
+              },
+              {
+                "question": "Which of the following sorting algorithms has the best worst-case time complexity?",
+                "options": ["Quick Sort", "Merge Sort", "Insertion Sort", "Bubble Sort"],
+                "answer": "Merge Sort",
+                "marks": 2
+              },
+              {
+                "question": "Which data structure is used in Breadth First Search (BFS)?",
+                "options": ["Stack", "Queue", "Priority Queue", "Tree"],
+                "answer": "Queue",
+                "marks": 1
+              },
+              {
+                "question": "What is the time complexity of finding the maximum element in a binary max-heap?",
+                "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+                "answer": "O(1)",
+                "marks": 1
+              },
+              {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph with non-negative weights?",
+                "options": ["Prim’s Algorithm", "Dijkstra’s Algorithm", "Kruskal’s Algorithm", "DFS"],
+                "answer": "Dijkstra’s Algorithm",
+                "marks": 2
+              },
+              {
+                "question": "What is the worst-case time complexity of Quick Sort?",
+                "options": ["O(n^2)", "O(n log n)", "O(n)", "O(log n)"],
+                "answer": "O(n^2)",
+                "marks": 1
+              },
+              {
+                "question": "Which traversal is used in topological sorting of a graph?",
+                "options": ["BFS", "DFS", "Inorder", "Postorder"],
+                "answer": "DFS",
+                "marks": 2
+              },
+              {
+                "question": "Which of the following problems is not solvable in polynomial time?",
+                "options": ["Minimum Spanning Tree", "Sorting", "Traveling Salesman Problem", "Shortest Path"],
+                "answer": "Traveling Salesman Problem",
+                "marks": 2
+              },
+              {
+                "question": "Which of the following is used in backtracking algorithms?",
+                "options": ["Memoization", "Stack", "Queue", "Graph"],
+                "answer": "Stack",
+                "marks": 1
+              },
+              {
+                "question": "The Master Theorem is used to analyze the time complexity of:",
+                "options": ["Dynamic Programming", "Greedy Algorithms", "Recurrence Relations", "Sorting"],
+                "answer": "Recurrence Relations",
+                "marks": 2
+              },
+              {
+                "question": "Which algorithm technique is used in the 0-1 Knapsack problem?",
+                "options": ["Greedy", "Divide and Conquer", "Dynamic Programming", "Backtracking"],
+                "answer": "Dynamic Programming",
+                "marks": 2
+              },
+              {
+                "question": "Which data structure gives the best performance for implementing Dijkstra's algorithm?",
+                "options": ["Stack", "Array", "Min-Heap", "Queue"],
+                "answer": "Min-Heap",
+                "marks": 2
+              },
+              {
+                "question": "What is the best case time complexity of insertion sort?",
+                "options": ["O(n^2)", "O(log n)", "O(n)", "O(n log n)"],
+                "answer": "O(n)",
+                "marks": 1
+              },
+              {
+                "question": "Which algorithm uses a divide and conquer approach?",
+                "options": ["Bubble Sort", "Merge Sort", "Insertion Sort", "Selection Sort"],
+                "answer": "Merge Sort",
+                "marks": 1
+              },
+              {
+                "question": "What is the maximum number of edges in a simple undirected graph with n vertices?",
+                "options": ["n", "n(n-1)/2", "n^2", "2n"],
+                "answer": "n(n-1)/2",
+                "marks": 1
+              },
+              {
+                "question": "Which graph traversal algorithm uses a queue data structure?",
+                "options": ["BFS", "DFS", "Topological Sort", "Kruskal’s"],
+                "answer": "BFS",
+                "marks": 1
+              },
+              {
+                "question": "In Kruskal’s algorithm, what data structure is used to detect cycles?",
+                "options": ["Stack", "Queue", "Disjoint Set", "Heap"],
+                "answer": "Disjoint Set",
+                "marks": 2
+              },
+              {
+                "question": "What is the space complexity of merge sort?",
+                "options": ["O(1)", "O(log n)", "O(n)", "O(n^2)"],
+                "answer": "O(n)",
+                "marks": 1
+              },
+              {
+                "question": "Which of the following is not a characteristic of greedy algorithms?",
+                "options": ["Global Optimization", "Local Optimization", "Feasible Solution", "Greedy Choice Property"],
+                "answer": "Global Optimization",
+                "marks": 2
+              },
+              {
+                "question": "Which of the following algorithm is used for cycle detection in a graph?",
+                "options": ["Prim's", "DFS", "BFS", "Bellman-Ford"],
+                "answer": "DFS",
+                "marks": 2
+              },
+              {
+                "question": "Which algorithm is used for finding strongly connected components?",
+                "options": ["Dijkstra", "Kruskal", "Kosaraju", "Prim"],
+                "answer": "Kosaraju",
+                "marks": 2
+              },
+              {
+                "question": "What is the average case time complexity of quicksort?",
+                "options": ["O(n^2)", "O(n log n)", "O(n)", "O(log n)"],
+                "answer": "O(n log n)",
+                "marks": 1
+              },
+              {
+                "question": "Which of the following is not an application of DFS?",
+                "options": ["Cycle Detection", "Topological Sort", "Finding Connected Components", "Shortest Path"],
+                "answer": "Shortest Path",
+                "marks": 2
+              },
+              {
+                "question": "In the worst case, the number of comparisons in binary search is:",
+                "options": ["log2(n)", "n", "n/2", "log2(n) + 1"],
+                "answer": "log2(n) + 1",
+                "marks": 2
+              },
+              {
+                "question": "Which sorting algorithm is preferred when the array is nearly sorted?",
+                "options": ["Quick Sort", "Merge Sort", "Insertion Sort", "Selection Sort"],
+                "answer": "Insertion Sort",
+                "marks": 1
+              },
+              {
+                "question": "What is the time complexity to delete a node from a Binary Search Tree (BST)?",
+                "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+                "answer": "O(log n)",
+                "marks": 2
+              },
+              {
+                "question": "Which algorithm is used to find all pairs shortest path?",
+                "options": ["Bellman-Ford", "Floyd-Warshall", "Prim's", "DFS"],
+                "answer": "Floyd-Warshall",
+                "marks": 2
+              },
+              {
+                "question": "The worst-case time complexity of bubble sort is:",
+                "options": ["O(n)", "O(n log n)", "O(n^2)", "O(log n)"],
+                "answer": "O(n^2)",
+                "marks": 1
+              },
+              {
+                "question": "Which algorithm is based on optimal substructure and overlapping subproblems?",
+                "options": ["Divide & Conquer", "Greedy", "Dynamic Programming", "Backtracking"],
+                "answer": "Dynamic Programming",
+                "marks": 2
+              },
+              {
+                "question": "Which algorithm is best suited for finding the MST in a sparse graph?",
+                "options": ["Prim’s", "Kruskal’s", "Bellman-Ford", "Dijkstra’s"],
+                "answer": "Kruskal’s",
+                "marks": 2
+              }
+            ]
+          }
+          

@@ -1,0 +1,174 @@
+{
+    "questions":[
+       {
+        "question":"Suppose we are transmitting frames between two nodes using the Stop-and-Wait protocol. The frame size is 3000 bits. The transmission rate of the channel is 2000 bps (bits/second) and the propagation delay between the two nodes is 100 milliseconds. Assume that the processing times at the source and destination are negligible. Also, assume that the size of the acknowledgment packet is negligible. Which ONE of the following most accurately gives the channel utilization for the above scenario in percentage?",
+        "options":["88.33","94.2","89","92.33"],
+        "answer":"88.33",
+        "marks":1
+       },
+       {
+        "question":"Consider a network that uses Ethernet and IPv4. Assume that IPv4 headers do not use any options field. Each Ethernet frame can carry a maximum of 1500 bytes in its data field. A UDP segment is transmitted. The payload (data) in the UDP segment is 7488 bytes.Which ONE of the following choices has the CORRECT total number of fragments transmitted and the size of the last fragment including IPv4 header?",
+        "options":["5 fragments, 1488 bytes","6 fragments, 88 bytes","6 fragments, 108 bytes","6 fragments, 116 bytes"],
+        "answer":"6 fragments, 116 bytes",
+        "marks":2
+       },
+       {
+        "question":"A machine receives an IPv4 datagram. The protocol field of the IPv4 header has the protocol number of a protocol X.Which ONE of the following is NOT a possible candidate for X?",
+        "options":["Open Shortest Path First (OSPF)","Internet Group Management Protocol (IGMP)","Routing Information Protocol (RIP)","Internet Control Message Protocol (ICMP)"],
+        "answer":"Routing Information Protocol (RIP)",
+        "marks":1
+       },
+       {
+        "question":"For matching of items in List I with those in List II, which ONE of the following options is CORRECT?",
+        "image":"../questionbank/cn1.png",
+        "options":["(i) - (a) and (ii) - (b)","(i) - (a) and (ii) - (a)","(i) - (b) and (ii) - (a)","(i) - (b) and (ii) - (b)"],
+        "answer":"(i) - (a) and (ii) - (b)",
+        "marks":1
+       },
+       {
+        "question":"Consider the following statements:(i) Address Resolution Protocol (ARP) provides a mapping from an IP address to the corresponding hardware (link-layer) address.<br>(ii) A single TCP segment from a sender S to a receiver R cannot carry both data from S to R and acknowledgement for a segment from R to S.<br><br>Which ONE of the following is CORRECT?",
+        "options":["(i) is TRUE and (ii) is FALSE","(i) is FALSE and (ii) is TRUE","Both (i) and (ii) are FALSE","Both (i) and (ii) are TRUE"],
+        "answer":"(i) is TRUE and (ii) is FALSE",
+        "marks":1
+       },
+       {
+        "question":"Node X has a TCP connection open to node Y. The packets from X to Y go through an intermediate IP router R. Ethernet switch S is the first switch on the network path between X and R. Consider a packet sent from X to Y over this connection.<br>Which of the following statements is/are TRUE about the destination IP and MAC addresses on this packet at the time it leaves X?",
+        "options":["The destination IP address is the IP address of R","The destination IP address is the IP address of Y","The destination MAC address is the MAC address of S","The destination MAC address is the MAC address of Y"],
+        "answer":"The destination IP address is the IP address of Y",
+        "marks":2
+       },
+       {
+        "question":"Consider sending an IP datagram of size 1420 bytes (including 20 bytes of IP header) from a sender to a receiver over a path of two links with a router between them. The first link (sender to router) has an MTU (Maximum Transmission Unit) size of 542 bytes, while the second link (router to receiver) has an MTU size of 360 bytes. The number of fragments that would be delivered at the receiver is _____",
+        "type":"numerical",
+        "answer":6,
+        "marks":2
+       },
+       {
+        "question":"This router forwards 20 packets each to 5 hosts. The IP addresses of the hosts are 10.1.1.16, 10.1.1.72, 10.1.1.132, 10.1.1.191, and 10.1.1.205. The number of packets forwarded via the next hop router R2 is ______",
+        "image":"../questionbank/cn2.png",
+        "type":"numerical",
+        "answer":40,
+        "marks":2
+       },
+       {
+        "question":"Which of the following fields is/are modified in the IP header of a packet going out of a network address translation (NAT) device from an internal network to an external network?",
+        "options":["Source IP","Header Checksum","Destination IP","Total Length"],
+        "answer":["Source IP","Header Checksum"],
+        "marks":1
+       },
+       {
+        "question":"A user starts browsing a webpage hosted at a remote server. The browser opens a single TCP connection to fetch the entire webpage from the server. The webpage consists of a top-level index page with multiple embedded image objects. Assume that all caches (e.g., DNS cache, browser cache) are all initially empty. The following packets leave the user's computer in some order.<br><br>(i) HTTP GET request for the index page<br>(ii) DNS request to resolve the web server's name to its IP address<br>(iii) HTTP GET request for an image object<br>(iv) TCP SYN to open a connection to the web server<br><br>Which one of the following is the CORRECT chronological order (earliest in time to latest) of the packets leaving the computer ?",
+        "options":["(iv), (ii), (iii), (i)","(ii), (iv), (iii), (i)","(iv), (ii), (i), (iii)","(ii), (iv), (i), (iii)"],
+        "answer":"(ii), (iv), (i), (iii)",
+        "marks":2
+       },
+       {
+        "question":"A packet addressed to a destination address 200.150.68.118 arrives at the router. It will be forwarded to the interface with ID _____.",
+        "image":"../questionbank/cn3.png",
+        "type":"numerical",
+        "answer":3,
+        "marks":1
+       },
+       {
+        "question":"Suppose in a web browser, you click on the www.gate-2023.in URL. The browser cache is empty. The IP address for this URL is not cached in your local host, so a DNS lookup is triggered (by the local DNS server deployed on your local host) over the 3-tier DNS hierarchy in an iterative mode. No resource records are cached anywhere across all DNS servers.<br>Let RTT denote the round trip time between your local host and DNS servers in the DNS hierarchy. The round trip time between the local host and the web server hosting www.gate-2023.in is also equal to RTT. The HTML file associated with the URL is small enough to have negligible transmission time and negligible rendering time by your web browser, which references 10 equally small objects on the same web server.<br>Which of the following statements is/are CORRECT about the minimum elapsed time between clicking on the URL and your browser fully rendering it?",
+        "options":["7 RTTs, in case of non-persistent HTTP with 5 parallel TCP connections.","5 RTTs, in case of persistent HTTP with pipelining.","9 RTTs, in case of non-persistent HTTP with 5 parallel TCP connections.","6 RTTs, in case of persistent HTTP with pipelining."],
+        "answer":["9 RTTs, in case of non-persistent HTTP with 5 parallel TCP connections.","6 RTTs, in case of persistent HTTP with pipelining."],
+        "marks":2
+       },
+       {
+        "question":"Suppose you are asked to design a new reliable byte-stream transport protocol like TCP. This protocol, named myTCP, runs over a 100 Mbps network with Round Trip Time of 150 milliseconds and the maximum segment lifetime of 2 minutes.Which of the following is/are valid lengths of the Sequence Number field in the myTCP header?",
+        "options":["30bits","32bits","34bits","36bits"],
+        "answer":["32bits","34bits","36bits"],
+        "marks":2
+       },
+       {
+        "question":"Consider the data transfer using TCP over a 1 Gbps link. Assuming that the maximum segment lifetime (MSL) is set to 60 seconds, the minimum number of bits required for the sequence number field of the TCP header, to prevent the sequence number space from wrapping around during the MSL is",
+        "type":"numerical",
+        "answer":33,
+        "marks":2
+       },
+       {
+        "question":"Consider the cyclic redundancy check (CRC) based error detecting scheme having the generator polynomial X^3+X+1. Suppose the message m4m3m2m1m0=11000 is to be transmitted. Check bits c2c1c0  are appended at the end of the message by the transmitter using the above CRC scheme. The transmitted bit string is denoted by m4m3m2m1m0c2c1c0. The value of the checkbit sequence c2c1c0  is",
+        "options":["110","100","101","111"],
+        "answer":"100",
+        "marks":2
+       },
+       {
+        "question":"Consider the three-way handshake mechanism followed during TCP connection establishment between hosts P and Q. Let X and Y be two random 32-bit starting sequence numbers chosen by P and Q respectively. Suppose P sends a TCP connection request message to Q with a TCP segment having SYN bit =1, SEQ number =X, and ACK bit =0. Suppose Q accepts the connection request. Which one of the following choices represents the information present in the TCP segment header that is sent by Q to P?",
+        
+        "options":["SYN bit =1, SEQ number =X+1, ACK bit =0, ACK number =Y, FIN bit =0","SYN bit =0, SEQ number =X+1, ACK bit =0, ACK number =Y, FIN bit =1","SYN bit =1, SEQ number =Y, ACK bit =1, ACK number =X+1, FIN bit =0","SYN bit =1, SEQ number =Y, ACK bit =1, ACK number =X, FIN bit =0"],
+        "answer":"SYN bit =1, SEQ number =Y, ACK bit =1, ACK number =X+1, FIN bit =0",
+        "marks":2
+       },
+       {
+        "question":"Consider the sliding window flow-control protocol operating between a sender and a receiver over a full-duplex error-free link. Assume the following:<br><br>The time taken for processing the data frame by the receiver is negligible.<br>The time taken for processing the acknowledgement frame by the sender is negligible.<br>The sender has infinite number of frames available for transmission.<br>The size of the data frame is 2,000 bits and the size of the acknowledgement frame is 10 bits.<br>The link data rate in each direction is 1 Mbps (=10^6 bits per second).<br>One way propagation delay of the link is 100 milliseconds.<br><br>The minimum value of the sender's window size in terms of the number of frames, (rounded to the nearest integer) needed to achieve a link utilization of 50% is _____________",
+        
+        "type":"numerical",
+        "answer":"52",
+        "marks":2
+       },
+       {
+        "question":"Consider two hosts P and Q connected through a router R. The maximum transfer unit (MTU) value of the link between P and R is 1500 bytes, and between R and Q is 820 bytes.A TCP segment of size 1400 bytes was transferred from P to Q through R, with IP identification value as 0x1234. Assume that the IP header size is 20 bytes. Further, the packet is allowed to be fragmented, i.e., Don't Fragment (DF) flag in the IP header is not set by P.<br><br>Which of the following statements is/are correct?",
+        
+        "options":["Two fragments are created at R and the IP datagram size carrying the second fragment is 620 bytes.","If the second fragment is lost, R will resend the fragment with the IP identification value 0x1234.","If the second fragment is lost, P is required to resend the whole TCP segment.","TCP destination port can be determined by analysing only the second fragment."],
+        "answer":["Two fragments are created at R and the IP datagram size carrying the second fragment is 620 bytes.","If the second fragment is lost, P is required to resend the whole TCP segment."],
+        "marks":2
+       },
+       {
+        "question":"A TCP server application is programmed to listen on port number P on host S. A TCP client is connected to the TCP server over the network.Consider that while the TCP connection was active, the server machine S crashed and rebooted. Assume that the client does not use the TCP keepalive timer. Which of the following behaviors is/are possible?",
+        
+        "options":["If the client was waiting to receive a packet, it may wait indefinitely.","If the client sends a packet after the server reboot, it will receive a RST segment.","The TCP server application on S can listen on P after reboot.","If the client sends a packet after the server reboot, it will receive a FIN segment."],
+        "answer":["If the client was waiting to receive a packet, it may wait indefinitely.","The TCP server application on S can listen on P after reboot.","If the client sends a packet after the server reboot, it will receive a RST segment."],
+        "marks":2
+       },
+       {
+        "question":"Consider the resolution of the domain name www.gate.org.in by a DNS resolver. Assume that no resource records are cached anywhere across the DNS servers and that iterative query mechanism is used in the resolution. The number of DNS query-response pairs involved in completely resolving the domain name is .",
+        "type":"numerical",
+       "answer":4,
+        "marks":1
+       },
+       {
+        "question":"What is the number of subnets inside the enterprise network?",
+        "image":"../questionbank/cn4.png",
+         "type":"numerical",
+        "answer":"6",
+        "marks":1
+       },
+       {
+        "question":"Consider a network using the pure ALOHA medium access control protocol, where each frame is of length 1,000 bits. The channel transmission rate is 1 Mbps (=10^6 bits per second). The aggregate number of transmissions across all the nodes (including new frame transmissions and retransmitted frames due to collisions) is modelled as a Poisson process with a rate of 1,000 frames per second. Throughput is defined as the average number of frames successfully transmitted per second. The throughput of the network (rounded to the nearest integer) is ______________",
+        "type":"numerical",
+        
+        "answer":130,
+        "marks":2
+       },
+       {
+        "question":"The objective is to find the shortest-cost path from the router R to routers P and Q. Assume that R does not initially know the shortest routes to P and Q. Assume that R has three neighboring routers denoted as X, Y and Z. During one iteration, R measures its distance to its neighbors X, Y, and Z as 3, 2 and 5, respectively. Router R gets routing vectors from its neighbors that indicate that the distance to router P from routers X, Y and Z are 7, 6 and 5, respectively. The routing vector also indicates that the distance to router Q from routers X, Y and Z are 4, 6 and 8 respectively. Which of the following statement(s) is/are correct with respect to the new routing table o R, after updation during this iteration",
+        "image":"../questionbank/cn5.png",
+        "options":["The distance from R to P will be stored as 10","The distance from R to Q will be stored as 7","The next hop router for a packet from R to P is Y","The next hop router for a packet from R to Q is Z"],
+        "answer":["The distance from R to Q will be stored as 7","The next hop router for a packet from R to P is Y"],
+        "marks":2
+       },
+       {
+        "question":"Consider the cyclic redundancy check (CRC) based error detecting scheme having the generator polynomial X^3+X+1. Suppose the message m4m3m2m1m0 =11000 is to be transmitted. Check bits c2c1c0 are appended at the end of the message by the transmitter using the above CRC scheme. The transmitted bit string is denoted by m4m3m2m1m0c2c1c0. The value of the checkbit sequence c2c1c0  is",
+        
+        "options":["101","100","111","110"],
+        "answer":"110",
+        "marks":1
+       },
+       {
+        "question":"Which one of the following choices gives the correct values of x and y?",
+        "image":"../questionbank/cn6.png",
+        "options":["x is 0 and y is 0","x is 0 and y is 1","x is 1 and y is 0","x is 1 and y is 1"],
+        "answer":"x is 0 and y is 0",
+        "marks":1
+       },
+       {
+        "question":"In a columnar transportation cipher, the plain text is \"the tomato is a plant in the night shade family\", keyword is \"TOMATO\". The cipher text is",
+        
+        "options":["\"TINESAX / EOAHTFX / HTLTHEY / MAIIAIX / TAPNGDL / OSTNHMX\"","\"TINESAX / EOAHTFX / MAIIAIX / HTLTHEY / TAPNGDL / OSTNHMX\"","\"TINESAX / EOAHTFX / HTLTHEY / MAIIAIX / OSTNHMX / TAPNGDL\"","\"EOAHTFX / TINESAX / HTLTHEY / MAIIAIX / TAPNGDL / OSTNHMX\""],
+        "answer":"\"TINESAX / EOAHTFX / HTLTHEY / MAIIAIX / TAPNGDL / OSTNHMX\"",
+        "marks":2
+       }
+    ]
+     
+}

@@ -1,0 +1,178 @@
+{
+    "questions":[
+        {
+            "question":"Consider the database transactions T1 and T2, and data items X and Y. Which of the schedule(s) is/are conflict serializable?",
+            "image":"../questionbank/db1.png",
+            "options":["R1(X),W2(X),W1(Y),W2(Y),R1(X),W1(X),COMMIT(T2),COMMIT(T1)","W2(X),R1(X),W2(Y),W1(Y),R1(X),COMMIT(T2),W1(X),COMMIT(T1)","R1(X),W1(Y),W2(X),W2(Y),R1(X),W1(X),COMMIT(T1),COMMIT(T2)","W2(X),R1(X),W1(Y),W2(Y),R1(X),COMMIT(T2),W1(X),COMMIT(T1)"],
+            "answer":"W2(X),R1(X),W2(Y),W1(Y),R1(X),COMMIT(T2),W1(X),COMMIT(T1)",
+            "marks":2
+        },
+        {
+            "question":"An audit of a banking transactions system has found that on an earlier occasion, two joint holders of account A attempted simultaneous transfers of Rs. 10000 each from account A to account B. Both transactions read the same value, Rs. 11000, as the initial balance in A and were allowed to go through. B was credited Rs. 10000 twice.A was debited only once and ended up with a balance of Rs. 1000.<br>Which of the following properties is/are certain to have been violated by the system?",
+            
+            "options":["Atomicity","Consistency","Isolation","Durability"],
+            "answer":["Consistency","Isolation"],
+            "marks":2
+        },
+        {
+            "question":"Consider the following database tables of a sports league.<br><br>player(pid,pname,age)<br>coach(cid,cname)<br>team(tid,tname,city,cid)<br>members(pid,tid)<br><br>The value returned by the given SQL query is _________. (Answer in integer)",
+            "image":"../questionbank/db2.png",
+            "type":"numerical",
+            "answer":"26",
+            "marks":2
+        },
+        {
+            "question":"Consider the following read-write schedule S over three transactions T1,T2, and T3, where the subscripts in the schedule indicate transaction IDs:<br><br>S:r1(z);w1(z);r2(x);r3(y);w3(y);r2(y);w2(x);w2(y);<br><br>Which of the following transaction schedules is/are conflict equivalent to S?",
+            
+            "options":["T1 T2 T3","T1 T3 T2","T3 T2 T1","T3 T1 T2"],
+            "answer":["T1 T3 T2","T3 T2 T1","T3 T1 T2"],
+            "marks":2
+        },
+        {
+            "question":"The symbol → indicates functional dependency in the context of a relational database. Which of the following options is/are TRUE?",
+            
+            "options":["(X,Y)→(Z,W) implies X→(Z,W)","(X,Y)→(Z,W) implies (X,Y)→Z","((X,Y)→Z and W→Y) implies (X,W)→Z","(X→Y and Y→Z) implies X→Z"],
+            "answer":["(X,Y)→(Z,W) implies (X,Y)→Z","((X,Y)→Z and W→Y) implies (X,W)→Z","(X→Y and Y→Z) implies X→Z"],
+            "marks":2
+        },
+        {
+            "question":"Which of the following statements about a relation R in first normal form (1NF) is/are TRUE ?",
+
+            "options":["R can have a multi-attribute key","R cannot have a foreign key","R cannot have a composite attribute","R cannot have more than one candidate key"],
+            "answer":["R can have a multi-attribute key","R cannot have a composite attribute"],
+            "marks":1
+        },
+        {
+            "question":"Let S be the specification: \"Instructors teach courses. Students register for courses. Courses are allocated classrooms. Instructors guide students.\" Which one of the following ER diagrams CORRECTLY represents S?",
+            "image":"../questionbank/db3.png",
+            "options":["(i)","(ii)","(iii)","(iv)"],
+            "answer":"(iv)",
+            "marks":1
+        },
+        {
+            "question":"Consider a database of fixed-length records, stored as an ordered file. The database has 25,000 records, with each record being 100 bytes, of which the primary key occupies 15 bytes. The data file is block-aligned in that each data record is fully contained within a block. The database is indexed by a primary index file, which is also stored as a block-aligned ordered file. The figure above depicts this indexing scheme.<br>Suppose the block size of the file system is 1024 bytes, and a pointer to a block occupies 5 bytes. The system uses binary search on the index file to search for a record with a given key. You may assume that a binary search on an index file of b blocks takes ⌈log2 b⌉ block accesses in the worst case.<br>Given a key, the number of block accesses required to identify the block in the data file that may contain a record with the key, in the worst case, is _____",
+            "image":"../questionbank/db4.png",
+            "type":"numerical",
+            "answer":6,
+            "marks":2
+        },
+        {
+            "question":"The number of rows returned by the query is ______",
+            "image":"../questionbank/db5.png",
+            "type":"numerical",
+            "answer":2,
+            "marks":1
+        },
+        {
+            "question":"Which one of the options given below refers to the degree (or arity) of a relation in relational database systems?",
+            
+            "options":["Number of attributes of its relation schema.","Number of tuples stored in the relation.","Number of entries in the relation.","Number of distinct domains of its relation schema."],
+            "answer":"Number of attributes of its relation schema.",
+            "marks":1
+        },
+        {
+            "question":"The number of rows returned by the above SQL query is ___",
+            "image":"../questionbank/db6.png",
+            "type":"numerical",
+            "answer":2,
+            "marks":1
+        },
+        {
+            "question":"Let Ri(z) and Wi(z) denote read and write operations on a data element z by a transaction Ti , respectively. Consider the schedule S with four transactions.<br><br>S:  R4(x) R2(x) R3(x) R1(y) W1(y) W2(x) W3(y) R4(y)<br><br>Which one of the following serial schedules is conflict equivalent to S?",
+            
+            "options":["T1→T3→T4→T2","T1→T4→T3→T2","T4→T1→T3→T2","T3→T1→T4→T2"],
+            "answer":"T1→T3→T4→T2",
+            "marks":2
+        },
+        {
+            "question":"Consider a relation R(A,B,C,D,E) with the following three functional dependencies.<br><br>AB→C;BC→D;C→E;<br>The number of superkeys in the relation R is ",
+            "type":"numerical",
+            
+            "answer":8,
+            "marks":2
+        },
+        {
+            "question":"Consider the following three relations in a relational database.<br>Employee(eId,Name),Brand(bId,bName),Own(eId,bId)<br>Which of the following relational algebra expressions return the set of eIds who own all the brands?",
+            
+            "options":["ΠeId(ΠeId,bId(Own)/ΠbId(Brand))","ΠeId(Own)−ΠeId((ΠeId(Own)×ΠbId(Brand))−ΠeId,bId(Own))","ΠeId(ΠeId,bId(Own)/ΠbId(Own))","All of the above"],
+            "answer":["ΠeId(ΠeId,bId(Own)/ΠbId(Brand))","ΠeId(Own)−ΠeId((ΠeId(Own)×ΠbId(Brand))−ΠeId,bId(Own))"],
+            "marks":2
+        },
+        {
+            "question":"In a relational data model, which one of the following statements is TRUE?",
+            
+            "options":["A relation with only two attributes is always in BCNF.","If all attributes of a relation are prime attributes, then the relation is in BCNF.","Every relation has at least one non-prime attribute.","BCNF decompositions preserve functional dependencies."],
+            "answer":"A relation with only two attributes is always in BCNF.",
+            "marks":1
+        },
+        {
+            "question":"Suppose the following functional dependencies hold on a relation U with attributes P,Q,R,S, and T:<br><br>P→QR<br>RS→T<br>Which of the following functional dependencies can be inferred from the above functional dependencies?",
+            
+            "options":["PS→T","R→T","P→R","PS→Q"],
+            "answer":["PS→T","P→R","PS→Q"],
+            "marks":1
+        },
+        {
+            "question":"Let S be the following schedule of operations of three transactions T1,T2 and T3 in a relational database system:<br><br>R2(Y),R1(X),R3(Z),R1(Y)W1(X),R2(Z),W2(Y),R3(X),W3(Z)<br><br>Consider the statements P and Q below:<br><br>P: S is conflict-serializable.<br>Q: If T3 commits before T1 finishes, then S is recoverable.<br><br>Which one of the following choices is correct?",
+            
+            "options":["Both P and Q are true","P is true and Q is false","P is false and Q is true","Both P and Q are false"],
+            "answer":"P is true and Q is false",
+            "marks":1
+        },
+        {
+            "question":"The relation scheme given below is used to store information about the employees of a company, where empId is the key and deptId indicates the department to which the employee is assigned. Each employee is assigned to exactly one department.<br>The above query gives, for each department in the company, the number of female employees whose salary is greater than the average salary of",
+            "image":"../questionbank/db7.png",
+            "options":["employees in the department","employees in the company","female employees in the department","female employees in the company"],
+            "answer":"employees in the company",
+            "marks":1
+        },
+        {
+            "question":"A data file consisting of 1,50,000 student-records is stored on a hard disk with block size of 4096 bytes. The data file is sorted on the primary key RollNo. The size of a record pointer for this disk is 7 bytes. Each student-record has a candidate key attribute called ANum of size 12 bytes. Suppose an index file with records consisting of two fields, ANum value and the record pointer the corresponding student record, is built and stored on the same disk. Assume that the records of data file and index file are not split across disk blocks. The number of blocks in the index file is ______",
+            "type":"numerical",
+            
+            "answer":"698",
+            "marks":2
+        },
+        {
+            "question":"Consider the following statements S1 and S2 about the relational data model:<br><br>S1: A relation scheme can have at most one foreign key.<br>S2: A foreign key in a relation scheme R cannot be used to refer to tuples of R.<br><br>Which one of the following choices is correct?",
+            
+            "options":["Both S1 and S2 are true","S1 is true and S2 is false","S1 is false and S2 is true","Both S1 and S2 are false"],
+            "answer":"Both S1 and S2 are false",
+            "marks":2
+        },
+        {
+            "question":"Consider the relation R(P,Q,S,T,X,Y,Z,W) with the following functional dependencies.<br>PQ→X; P→YX; Q→Y; Y→ZW<br><br>Consider the decomposition of the relation R into the constituent relations according to the following two decomposition schemes.<br><br>D1:R=[(P,QS,T);(P,T,X);(Q,Y);(Y,Z,W)]<br>D2:R=[(P,Q,S);(T,X);(Q,Y);(Y,Z,W)]<br><br>Which one of the following options is correct?",
+            
+            "options":["D1 is a lossless decomposition, but D2 is a lossy decomposition.","D1 is a lossy decomposition, but D2 is a lossless decomposition.","Both D1 and D2 are lossless decompositions.","Both D1 and D2 are lossy decompositions."],
+            "answer":"D1 is a lossless decomposition, but D2 is a lossy decomposition.",
+            "marks":2
+        },
+        {
+            "question":"Let ri(z) and wi(z) denote read and write operations respectively on a data item z by a transaction Ti. Consider the following two schedules.<br><br>S1:r1(x)r1(y)r2(x)r2(y)w2(y)w1(x)<br>S2:r1(x)r2(x)r2(y)w2(y)r1(y)w1(x)<br><br>Which one of the following options is correct?",
+            
+            "options":["S1 is conflict serializable, and S2 is not conflict serializable","S1 is not conflict serializable, and S2 is conflict serializable","Both S1 and S2 are conflict serializable","Niether S1 nor S2 is conflict serializable"],
+            "answer":"S1 is not conflict serializable, and S2 is conflict serializable",
+            "marks":2
+        },
+        {
+            "question":"Consider a linear list based directory implementation in a file system. Each directory is a list of nodes, where each node contains the file name along with the file metadata, such as the list of pointers to the data blocks. Consider a given directory foo.<br><br>Which of the following operations will necessarily require a full scan of foo for successful completion?",
+            
+            "options":["Creation of a new file in foo","Deletion of an existing file from foo","Renaming of an existing file in foo",""],
+            "answer":["Creation of a new file in foo","Renaming of an existing file in foo"],
+            "marks":2
+        },
+        {
+            "question":"If every non-key attribute functionally dependent on the primary key, then the relation will be in",
+            "options":["1NF","2NF","3NF","BCNF"],
+            "answer":"2NF",
+            "marks":1
+        },
+        {
+            "question":"Consider a database implemented using B+ tree for file indexing and installed on a disk drive with block size of 4 KB. The size of search key is 12 bytes and the size of tree/disk pointer is 8 bytes. Assume that the database has one million records. Also assume that no node of the B+ tree and no records are present initially in main memory. Consider that each record fits into one disk block. The minimum number of disk accesses required to retrieve any record in the database is _______",
+            "type":"numerical",
+            "answer":4,
+            "marks":2
+        }
+        
+    ]
+}

@@ -1,0 +1,200 @@
+{
+    "questions":[
+        {
+            "question":"Suppose the values 10, -4, 15, 30, 20, 5, 60, 19 are inserted in that order into an initially empty binary search tree. Let T be the resulting binary search tree. The number of edges in the path from the node containing 19 to the root node of T is ___________. (Answer in integer)",
+            "type":"numerical",
+            "answer":4,
+            "marks":1
+        },
+        {
+            "question":"A meld operation on two instances of a data structure combines them into one single instance of the same data structure. Consider the following data structures:<br><br>P: Unsorted doubly linked list with pointers to the head node and tail node of the list.<br>Q: Min-heap implemented using an array.<br>R: Binary Search Tree.<br><br>Which ONE of the following options gives the worst-case time complexities for meld operation on instances of size n of these data structures?",
+            
+            "options":["P: Θ(1), Q: Θ(n), R: Θ(n)","P: Θ(1), Q: Θ(nlogn), R: Θ(n)","P: Θ(n), Q: Θ(nlogn), R: Θ(n^2)","P: Θ(1), Q: Θ(n), R: Θ(nlogn)"],
+            
+            "answer":"P: Θ(1), Q: Θ(n), R: Θ(n)",
+            "marks":2
+        },
+        {
+            "question":"Consider an unordered list of N distinct integers.What is the minimum number of element comparisons required to find an integer in the list that is NOT the largest in the list?",
+            
+            "options":["1","N-1","2N-1","N"],
+            
+            "answer":"1",
+            "marks":1
+        },
+        {
+            "question":"Consider a binary tree T in which every node has either zero or two children. Let n>0 be the number of nodes in T.Which ONE of the following is the number of nodes in T that have exactly two children?",
+            
+            "options":["(n-1)/2","(n-2)/2","n","(n+1)/2"],
+            
+            "answer":"(n-1)/2",
+            "marks":2
+        },
+        {
+            "question":"In a double hashing scheme, h1(k)=kmod11 and h2(k)=1+(kmod7) are the auxiliary hash functions. The size m of the hash table is 11. The hash function for the i-th probe in the open address table is [h1(k)+ih2(k)]mod m The following keys are inserted in the given order: 63, 50, 25, 79, 67, 24.The slot at which key 24 gets stored is _________. (Answer in integer)",
+            
+            "type":"numerical",
+            "answer":10,
+            "marks":2
+        },
+        {
+            "question":"Let LIST be a datatype for an implementation of linked list defined as follows:<br><br>typedef struct list {  <br>int data; <br>struct list *next;  <br>} LIST; <br><br>Suppose the program has created two linked lists, L1 and L2, whose contents are given in the figure below (code for creating L1 and L2 is not provided here). L1 contains 9 nodes, and L2 contains 7 nodes.Consider the following C program segment that modifies the list L1. The number of nodes in L1 after the execution of the code segment is _________. (Answer in integer)",
+            "image":"../questionbank/ds1.png",
+            
+            "type":"numerical",
+            "answer":5,
+            "marks":2
+        },
+        {
+            "question":"The height of any rooted tree is defined as the maximum number of edges in the path from the root node to any leaf node. Suppose a Min-Heap T stores 32 keys. The height of T is _____________. (Answer in integer)",
+            
+            
+            "type":"numerical",
+            "answer":5,
+            "marks":1
+        },
+        {
+            "question":"Which of the following statement(s) is/are TRUE for any binary search tree (BST) having n distinct integers?",
+            
+            "options":["The maximum length of a path from the root node to any other node is (n−1).","An inorder traversal will always produce a sorted sequence of elements.","Every BST is also a Min-Heap.","Finding an element takes O(log2 n) time in the worst case."],
+            
+            "answer":["The maximum length of a path from the root node to any other node is (n−1).","An inorder traversal will always produce a sorted sequence of elements.","Finding an element takes O(log2 n) time in the worst case."],
+            "marks":2
+        },
+        {
+            "question":"Consider the following B+ tree with 5 nodes, in which a node can store at most 3 key values. The value 23 is now inserted in the B+ tree. Which of the following options(s) is/are CORRECT?",
+            "image":"../questionbank/ds2.png",
+            "options":["None of the nodes will split.","At least one node will split and redistribute.","The total number of nodes will remain same.","The height of the tree will increase."],
+            
+            "answer":["At least one node will split and redistribute.","The height of the tree will increase."],
+            "marks":2
+        },
+        {
+            "question":"Only the following three operations are available:<br><br>PushToS2: Pop the top element from S1 and push it on S2.<br>PushToS1: Pop the top element from S2 and push it on S1.<br>GenerateOutput: Pop the top element from S1 and output it to the user.<br><br>Note that the pop operation is not allowed on an empty stack and the push operation is not allowed on a full stack.<br><br>Which of the following output sequences can be generated by using the above operations?",
+            "image":"../questionbank/ds3.png",
+            "options":["100, 200, 400, 300","200, 300, 400, 100","400, 200, 100, 300","300, 200, 400, 100"],
+            
+            "answer":["200, 300, 400, 100","400, 200, 100, 300","300, 200, 400, 100"],
+            "marks":1
+        },
+        {
+            "question":"You are given a set V of distinct integers. A binary search tree T is created by inserting all elements of V one by one, starting with an empty tree. The tree T follows the convention that, at each node, all values stored in the left subtree of the node are smaller than the value stored at the node. You are not aware of the sequence in which these values were inserted into T, and you do not have access to T.<br>Which one of the following statements is TRUE?",
+            
+            "options":["Inorder traversal of T can be determined from V","Root node of T can be determined from V","Preorder traversal of T can be determined from V","Postorder traversal of T can be determined from V"],
+            
+            "answer":"Inorder traversal of T can be determined from V",
+            "marks":2
+        },
+        {
+            "question":"Let A be an array containing integer values. The distance of A is defined as the minimum number of elements in A that must be replaced with another integer so that the resulting array is sorted in non-decreasing order. The distance of the array [2,5,3,1,4,2,6] is _____",
+        
+            
+            "type":"numerical",
+            "answer":3,
+            "marks":1
+        },
+        {
+            "question":"Consider a binary min-heap containing 105 distinct elements. Let k be the index (in the underlying array) of the maximum element stored in the heap. The number of possible values of k is",
+            
+            "options":["53","52","27","1"],
+            
+            "answer":"53",
+            "marks":1
+        },
+        {
+            "question":"An array [82,101,90,11,111,75,33,131,44,93] is heapified. Which one of the following options represents the first three elements in the heapified array?",
+            
+            "options":["82,90,101","82,11,93","131,11,93","131,111,90"],
+            
+            "answer":"131,111,90",
+            "marks":1
+        },
+        {
+            "question":"Consider the operator precedence and associativity rules for the integer arithmetic operators given in the table above. The value of the expression 3+1+5∗2/7+2−4−7−6/2 as per the above rules is _____",
+            "image":"../questionbank/ds4.png",
+            
+            "type":"numerical",
+            "answer":6,
+            "marks":2
+        },
+        {
+            "question":"In a B+ tree, the requirement of at least half-full (50%) node occupancy is relaxed for which one of the following cases?",
+            
+            "options":["Only the root node","All leaf nodes","All internal nodes","Only the leftmost leaf node"],
+            
+            "answer":"Only the root node",
+            "marks":1
+        },
+        {
+            "question":"Consider a sequence a of elements a0=1, a1=5, a2=7, a3=8, a4=9 and a5=2. The following operations are performed on a stack S and a queue Q, both of which are initially empty.<br><br>I: push the elements of a from a0 to a5 in that order into S.<br>II: enqueue the elements of a from a0 to a5 in that order into Q.<br>III: pop an element from S.IV: dequeue an element from Q.<br>V: pop an element from S.<br>VI: dequeue an element from Q.<br>VII: dequeue an element from Q and push the same element into S.<br>VIII: Repeat operation VII three times.<br>IX: pop an element from S.<br>X: pop an element fromS.<br><br>The top element of S after executing the above operations is ___.",
+            
+            "type":"numerical",
+            "answer":8,
+            "marks":2
+        },
+        {
+            "question":"When foo is called with a pointer to the root node of the given binary tree, what will it print?",
+            "image":"../questionbank/ds5.png",
+            "options":["3 8 5 13 11 10","3 5 8 10 11 13","3 8 16 13 24 50","3 16 8 50 24 13"],
+        
+            "answer":"3 8 16 13 24 50",
+            "marks":2
+        },
+        {
+            "question":"Let A be a priority queue for maintaining a set of elements. Suppose A is implemented using a max-heap data structure. The operation Extract-Max(A) extracts and deletes the maximum element from A. The operation Insert(A,key) inserts a new element key in A. The properties of a max-heap are preserved at the end of each of these operations.When A contains n elements, which one of the following statements about the worst case running time of these two operations is TRUE?",
+            
+            "options":["Both Extract-Max(A) and Insert(A,key) run in O(1).","Both Extract-Max(A) and Insert(A,key) run in O(log(n)).","Extract-Max(A) runs in O(1) whereas Insert(A,key) runs in O(n).","Extract-Max(A) runs in O(1) whereas Insert(A,key) runs in O(log(n))."],
+            
+            "answer":"Both Extract-Max(A) and Insert(A,key) run in O(log(n)).",
+            "marks":2
+        },
+        {
+            "question":"An algorithm has to store several keys generated by an adversary in a hash table. The adversary is malicious who tries to maximize the number of collisions. Let k be the number of keys, m be the number of slots in the hash table, and k>m.<br>Which one of the following is the best hashing strategy to counteract the adversary?",
+            
+            "options":["Division method, i.e., use the hash function h(k)=kmodm","Universal hashing method.","If k is a prime number, use Division method. Otherwise, use Multiplication method","Multiplication method, i.e., use the hash function h(k)=⌊m(kA−⌊kA⌋)⌋, where A is a carefully chosen constant."],
+    
+            "answer":"Universal hashing method.",
+            "marks":2
+        },
+        {
+            "question":"Let SLLdel be a function that deletes a node in a singly-linked list given a pointer to the node and a pointer to the head of the list. Similarly, let DLLdel be another function that deletes a node in a doubly-linked list given a pointer to the node and a pointer to the head of the list.Let n denote the number of nodes in each of the linked lists. Which one of the following choices is TRUE about the worst-case time complexity of SLLdel and DLLdel?",
+            
+            "options":["SLLdel is O(1) and DLLdel is O(n)","Both SLLdel and DLLdel are O(log(n))","Both SLLdel and DLLdel are O(1)","SLLdel is O(n) and DLLdel is O(1)"],
+            
+            "answer":"SLLdel is O(n) and DLLdel is O(1)",
+            "marks":1
+        },
+        {
+            "question":"Which one of the following sequences when stored in an array at locations A[1], . . . , A[10] forms a max-heap?",
+            
+            "options":["23, 17, 10, 6, 13, 14, 1, 5, 7, 12","23, 17, 14, 7, 13, 10, 1, 5, 6, 12","23, 17, 14, 6, 13, 10, 1, 5, 7, 15","23, 14, 17, 1, 10, 13, 16, 12, 7, 5"],
+            
+            "answer":"23, 17, 14, 7, 13, 10, 1, 5, 6, 12",
+            "marks":1
+        },
+        {
+            "question":"Consider the queues Q1 containing four elements and Q2 containing none (shown as the Initial State in the figure). The only operations allowed on these two queues are Enqueue(Q,element) and Dequeue(Q). The minimum number of Enqueue operations on Q1 required to place the elements of Q1 in Q2 in reverse order (shown as the Final State in the figure) without using any additional storage is",
+            "image":"../questionbank/ds6.png",
+            
+            "type":"numerical",
+            "answer":0,
+            "marks":2
+        },
+        {
+            "question":"Suppose a binary search tree with 1000 distinct elements is also a complete binary tree. The tree is stored using the array representation of binary heap trees. Assuming that the array indices start with 0, the 3rd largest element of the tree is stored at index _______.",
+            
+        
+            "type":"numerical",
+            "answer":509,
+            "marks":2
+        },
+        {
+            "question":"Which one of the following statements is TRUE about the time complexity of algorithms that solve the above problem in O(1) space?",
+            "image":"../questionbank/ds7.png",
+            "options":["The best algorithm for the problem takes θ(n) time in the worst case.","The best algorithm for the problem takes θ(nlogn) time in the worst case.","The best algorithm for the problem takes θ(n^2) time in the worst case.","It is not possible to reverse a singly linked list in O(1) space."],
+            
+            "answer":"The best algorithm for the problem takes θ(n) time in the worst case.",
+            "marks":""
+        }
+    ]
+}

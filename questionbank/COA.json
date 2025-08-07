@@ -1,0 +1,379 @@
+{
+    "questions" : [
+        {
+            "question": "An application executes 6.4×10^8 number of instructions in 6.3 seconds. There are four types of instructions, the details of which are given in the table. The duration of a clock cycle in nanoseconds is _________. (rounded off to one decimal place)",
+            "image": "../questionbank/coa1.png",
+            "type": "numerical",
+            "answer": 3,
+            "marks":2
+        },
+        {
+            "question": "A 5-stage instruction pipeline has stage delays of 180, 250, 150, 170, and 250, respectively, in nanoseconds. The delay of an inter-stage latch is 10 nanoseconds. Assume that there are no pipeline stalls due to branches and other hazards. The time taken to process 1000 instructions in microseconds is __________ . (rounded off to two decimal places)",
+            "type": "numerical",
+            "answer": 260.2,
+            "marks":2
+        },
+        {
+            "question": "Given a computing system with two levels of cache (L1 and L2) and a main memory. The first level (L1) cache access time is 1 nanosecond (ns) and the \"hit rate\" for L1 cache is 90% while the processor is accessing the data from L1 cache. Whereas, for the second level (L2) cache, the \"hit rate\" is 80% and the \"miss penalty\" for transferring data from L2 cache to L1 cache is 10 ns. The \"miss penalty\" for the data to be transferred from main memory to L2 cache is 100 ns.<br>Then the average memory access time in this system in nanoseconds is ___________ . (rounded off to one decimal place)",
+            "type": "numerical",
+            "answer": 4,
+            "marks":2
+        },
+        {
+            "question": "For a direct-mapped cache, 4 bits are used for the tag field and 12 bits are used to index into a cache block. The size of each cache block is one byte. Assume that there is no other information stored for each cache block.Which ONE of the following is the CORRECT option for the sizes of the main memory and the cache memory in this system (byte addressable), respectively?",
+            "options": ["64 KB and 4 KB", "128 KB and 16 KB", "64 KB and 8 KB", "128 KB and 6 KB"],
+            "answer": "64 KB and 4 KB",
+            "marks":2
+        },
+        {
+            "question": "Which of the following is/are part of an Instruction Set Architecture of a processor?",
+            "options": ["The size of the cache memory", "The clock frequency of the processor", "The number of cache memory levels", "The total number of registers"],
+            "answer": "The total number of registers",
+            "marks":1
+        },
+        {
+            "question": "Consider a computer with a 4 MHz processor. Its DMA controller can transfer 8 bytes in 1 cycle from a device to main memory through cycle stealing at regular intervals. Which one of the following is the data transfer rate (in bits per second) of the DMA controller if 1% of the processor cycles are used for DMA?",
+            "options": ["2,56,000", "3,200", "25,60,000", "32,000"],
+            "answer": "25,60,000",
+            "marks":1
+        },
+        {
+            "question": "A given program has 25% load/store instructions. Suppose the ideal CPI (cycles per instruction) without any memory stalls is 2. The program exhibits 2% miss rate on instruction cache and 8% miss rate on data cache. The miss penalty is 100 cycles. The speedup (rounded off to two decimal places) achieved with a perfect cache (i.e., with NO data or instruction cache misses) is _________",
+            "type": "numerical",
+            "answer": 3,
+            "marks":2
+        },
+        {
+            "question": "The baseline execution time of a program on a 2 GHz single core machine is 100 nanoseconds (ns). The code corresponding to 90% of the execution time can be fully parallelized. The overhead for using an additional core is 10 ns when running on a multicore system. Assume that all cores in the multicore system run their share of the parallelized code for an equal amount of time.The number of cores that minimize the execution time of the program is _______",
+            "type": "numerical",
+            "answer": 3,
+            "marks":2
+        },
+        {
+            "question": "Consider a 512 GB hard disk with 32 storage surfaces. There are 4096 sectors per track and each sector holds 1024 bytes of data. The number of cylinders in the hard disk is ____",
+            "type": "numerical",
+            "answer": 4096,
+            "marks":2
+        },
+        {
+            "question": "Consider two set-associative cache memory architectures: WBC, which uses the write back policy, and WTC, which uses the write through policy. Both of them use the LRU (Least Recently Used) block replacement policy. The cache memory is connected to the main memory. Which of the following statements is/are TRUE?",
+            "options": [
+                "A read miss in WBC never evicts a dirty block",
+                "A read miss in WTC never triggers a write back operation of a cache block to main memory",
+                "A write hit in WBC can modify the value of the dirty bit of a cache block",
+                "A write miss in WTC always writes the victim cache block to main memory before loading the missed block to the cache"
+            ],
+            "answer": [
+                "A read miss in WTC never triggers a write back operation of a cache block to main memory",
+                "A write hit in WBC can modify the value of the dirty bit of a cache block"
+            ],
+            "marks":2
+        },
+        {
+            "question": "Consider a 5-stage pipelined processor with Instruction Fetch (IF), Instruction Decode (ID), Execute (EX), Memory Access (MEM), and Register Writeback (WB) stages. Which of the following statements about forwarding is/are CORRECT?",
+            "options": [
+                "In a pipelined execution, forwarding means the result from a source stage of an earlier instruction is passed on to the destination stage of a later instruction",
+                "In forwarding, data from the output of the MEM stage can be passed on to the input of the EX stage of the next instruction",
+                "Forwarding cannot prevent all pipeline stalls",
+                "Forwarding does not require any extra hardware to retrieve the data from the pipeline stages"
+            ],
+            "answer": [
+                "In a pipelined execution, forwarding means the result from a source stage of an earlier instruction is passed on to the destination stage of a later instruction",
+                "In forwarding, data from the output of the MEM stage can be passed on to the input of the EX stage of the next instruction",
+                "Forwarding cannot prevent all pipeline stalls"
+            ],
+            "marks":2
+        },
+        {
+            "question": "Which one of the following statements is FALSE?",
+            "options": [
+                "In the cycle stealing mode of DMA, one word of data is transferred between an I/O device and main memory in a stolen cycle",
+                "For bulk data transfer, the burst mode of DMA has a higher throughput than the cycle stealing mode",
+                "The CPU can start executing an interrupt service routine faster with vectored interrupts than with non-vectored interrupts",
+                "Programmed I/O mechanism has a better CPU utilization than the interrupt driven I/O mechanism"
+            ],
+            "answer": "Programmed I/O mechanism has a better CPU utilization than the interrupt driven I/O mechanism",
+            "marks":1
+        },
+        {
+            "question": "An 8-way set associative cache of size 64 KB (1 KB = 1024 bytes) is used in a system with 32-bit address. The address is sub-divided into TAG, INDEX, and BLOCK OFFSET.The number of bits in the TAG is ____.",
+            "type": "numerical",
+            "answer": 19,
+            "marks":2
+        },
+        {
+            "question": "A 4 kilobyte (KB) byte-addressable memory is realized using four 1 KB memory blocks. Two input address lines (IA4 and IA3) are connected to the chip select (CS) port of these memory blocks through a decoder as shown in the figure. The remaining ten input address lines from IA11-IA0 are connected to the address port of these blocks. The chip select (CS) is active high.The input memory addresses (IA11-IA0), in decimal, for the starting locations (Addr=0) of each block (indicated as X1, X2, X3, X4 in the figure) are among the options given below. Which one of the following options is CORRECT?",
+            "image": "../questionbank/coa2.png",
+            "options": ["(0, 1, 2, 3)", "(0, 1024, 2048, 3072)", "(0, 8, 16, 24)", "(0, 0, 0, 0)"],
+            "answer": "(0, 8, 16, 24)",
+            "marks":2
+        },
+        {
+            "question": "Consider the given C-code and its corresponding assembly code, with a few operands U1-U4 being unknown. Some useful information as well as the semantics of each unique assembly instruction is annotated as inline comments in the code. The memory is byte-addressable.Which one of the following options is a CORRECT replacement for operands in the position (U1, U2, U3, U4) in the above assembly code?",
+            "image": "../questionbank/coa3.png",
+            "options": [
+                "(8, 4, 1, Lo2)",
+                "(3, 4, 4, Lo1)",
+                "(8, 1, 1, Lo2)",
+                "(3, 1, 1, Lo1)"
+            ],
+            "answer": "(3, 4, 4, Lo1)",
+            "marks":2
+        },
+        {
+            "question": "A 3-stage pipelined processor having a delay of 10 ns (nanoseconds), 20 ns, and 14 ns, for the first, second, and the third stages, respectively. Assume that there is no other delay and the processor does not suffer from any pipeline hazards. Also assume that one instruction is fetched every cycle.The total execution time for executing 100 instructions on this processor is _______ ns",
+            "type": "numerical",
+            "answer": 2040,
+            "marks":1
+        },
+        {
+            "question": "A processor X1 operating at 2 GHz has a standard 5-stage RISC instruction pipeline having a base CPI (cycles per instruction) of one without any pipeline hazards. For a given program P that has 30% branch instructions, control hazards incur 2 cycles stall for every branch. A new version of the processor X2 operating at same clock frequency has an additional branch predictor unit (BPU) that completely eliminates stalls for correctly predicted branches. There is neither any savings nor any additional stalls for wrong predictions. There are no structural hazards and data hazards for X1 and X2. If the BPU has a prediction accuracy of 80%, the speed up (rounded off to two decimal places) obtained by X2 over X1 in executing P is",
+            "type": "numerical",
+            "answer": 1.45,
+            "marks":1
+        },
+        {
+            "question": "Consider a system with 2 KB direct mapped data cache with a block size of 64 bytes. The system has a physical address space of 64 KB and a word length of 16 bits. During the execution of a program, four data words P, Q, R, and S are accessed in that order 10 times (i.e., PQRSPQRS...). Hence, there are 40 accesses to data cache altogether. Assume that the data cache is initially empty and no other data words are accessed by the program. The addresses of the first bytes of P, Q, R, and S are 0xA248, 0xC28A, 0xCA8A, and 0xA262, respectively. For the execution of the above program, which of the following statements is/are TRUE with respect to the data cache?",
+            "options": [
+                "Every access to S is a hit.",
+                "Once P is brought to the cache it is never evicted.",
+                "At the end of the execution only R and S reside in the cache.",
+                "Every access to R evicts Q from the cache."
+            ],
+            "answer": [
+                "Every access to S is a hit.",
+                "Once P is brought to the cache it is never evicted",
+                "Every access to R evicts Q from the cache."
+            ],
+            "marks":2
+
+        },
+        {
+            "question": "Consider a digital display system (DDS) shown in the figure that displays the contents of register X. A 16-bit code word is used to load a word in X, either from S or from R. S is a 1024-word memory segment and R is a 32-word register file. Based on the value of mode bit M, T selects an input word to load in X. P and Q interface with the corresponding bits in the code word to choose the addressed word. Which one of the following represents the functionality of P, Q, and T?",
+            "image": "../questionbank/coa4.png",
+            "options": [
+                "P is 10:1 multiplexer;<br>Q is 5:1 multiplexer;<br>T is 2:1 multiplexer",
+                "P is 10:2^10 decoder;<br> Q is 5:2^5 decoder;<br>T is 2:1 encoder",
+                "P is 10:2^10 decoder; Q is 5:2^5  decoder; T is 2:1 multiplexer",
+                "P is 1:10 de-multiplexer;<br> Q is 1:5 de-multiplexer;<br> T is 2:1 multiplexer"
+            ],
+            "answer": "P is 10:2^10 decoder; Q is 5:2^5  decoder; T is 2:1 multiplexer",
+            "marks":2
+        },
+        {
+            "question": "Consider a 5-stage pipelined processor with Instruction Fetch (IF), Instruction Decode (ID), Execute (EX), Memory Access (MEM), and Register Writeback (WB) stages. Which of the following statements about forwarding is/are CORRECT?",
+            "options": [
+                "In a pipelined execution, forwarding means the result from a source stage of an earlier instruction is passed on to the destination stage of a later instruction",
+                "In forwarding, data from the output of the MEM stage can be passed on to the input of the EX stage of the next instruction",
+                "Forwarding cannot prevent all pipeline stalls",
+                "Forwarding does not require any extra hardware to retrieve the data from the pipeline stages"
+            ],
+            "answer": [
+                "In a pipelined execution, forwarding means the result from a source stage of an earlier instruction is passed on to the destination stage of a later instruction",
+                "In forwarding, data from the output of the MEM stage can be passed on to the input of the EX stage of the next instruction",
+                "Forwarding cannot prevent all pipeline stalls"
+            ],
+            "marks":2
+        },
+        {
+            "question": "One instruction tries to write an operand before it is written by previous instruction. This may lead to a dependency called",
+            "options": ["True dependency", "Anti-dependency", "Control Hazard", "Output dependency"],
+            "answer": "Output dependency",
+            "marks":1
+        },
+        {
+            "question": "A magnetic disk has 100 cylinders, each with 10 tracks of 10 sectors. If each sector contains 128 bytes, what is the maximum capacity of the disk in kilobytes?",
+            "options": ["12,80,000", "1280", "1250", "1,28,000"],
+            "answer": "1250",
+            "marks":2
+        },
+        {
+            "question": "Which of the following is an efficient method of cache updating?",
+            "options": ["Snoopy writes", "Write through", "Write within", "Buffered write"],
+            "answer": "Snoopy writes",
+            "marks":1
+        },
+    
+              {
+                "question": "Which of the following is not a type of addressing mode?",
+                "options": ["Immediate", "Direct", "Indirect", "Sequential"],
+                "answer": "Sequential",
+                "marks": 1
+              },
+              {
+                "question": "What is the minimum number of flip-flops required to design a mod-16 counter?",
+                "options": ["2", "3", "4", "5"],
+                "answer": "4",
+                "marks": 1
+              },
+              {
+                "question": "The number of address lines required to address 64 KB memory is:",
+                "options": ["16", "32", "12", "24"],
+                "answer": "16",
+                "marks": 1
+              },
+              {
+                "question": "Which of the following is a hazard in pipelining?",
+                "options": ["Data hazard", "Control hazard", "Structural hazard", "All of the above"],
+                "answer": "All of the above",
+                "marks": 2
+              },
+              {
+                "question": "In a 2-way set associative cache, each set contains:",
+                "options": ["2 blocks", "1 block", "4 blocks", "Unlimited blocks"],
+                "answer": "2 blocks",
+                "marks": 1
+              },
+              {
+                "question": "The carry look-ahead adder reduces:",
+                "options": ["Gate count", "Delay", "Power", "None"],
+                "answer": "Delay",
+                "marks": 2
+              },
+              {
+                "question": "What is the size of the instruction register in a basic computer?",
+                "options": ["4 bits", "8 bits", "16 bits", "32 bits"],
+                "answer": "16 bits",
+                "marks": 1
+              },
+              {
+                "question": "The CPU register that holds the address of the next instruction is:",
+                "options": ["Program Counter", "Instruction Register", "Accumulator", "Memory Address Register"],
+                "answer": "Program Counter",
+                "marks": 1
+              },
+              {
+                "question": "Which of the following memory types is fastest?",
+                "options": ["Cache", "RAM", "Hard Disk", "Flash"],
+                "answer": "Cache",
+                "marks": 1
+              },
+              {
+                "question": "A control unit that uses a state machine to control operations is:",
+                "options": ["Hardwired", "Microprogrammed", "Sequential", "None"],
+                "answer": "Hardwired",
+                "marks": 1
+              },
+              {
+                "question": "What is the CPI if a program has 3 types of instructions with average cycles 1, 2, and 4, and executed in the ratio 2:3:5?",
+                "options": ["2.9", "3.2", "2.8", "3.1"],
+                "answer": "2.9",
+                "marks": 2
+              },
+              {
+                "question": "In RISC architecture, which is true?",
+                "options": ["Few addressing modes", "More instruction types", "Variable instruction size", "Complex control unit"],
+                "answer": "Few addressing modes",
+                "marks": 1
+              },
+              {
+                "question": "Which of the following is used in DMA?",
+                "options": ["CPU", "Cache", "I/O controller", "Disk"],
+                "answer": "I/O controller",
+                "marks": 2
+              },
+              {
+                "question": "How many 1-to-4 decoders are needed to make a 1-to-16 decoder?",
+                "options": ["2", "4", "5", "6"],
+                "answer": "5",
+                "marks": 2
+              },
+              {
+                "question": "Which technique is used for address translation in virtual memory?",
+                "options": ["TLB", "Stack pointer", "Bus interface", "Pipeline"],
+                "answer": "TLB",
+                "marks": 1
+              },
+              {
+                "question": "The Hamming distance for a single bit error correction is:",
+                "options": ["1", "2", "3", "4"],
+                "answer": "3",
+                "marks": 1
+              },
+              {
+                "question": "Booth's algorithm is used for:",
+                "options": ["Addition", "Subtraction", "Multiplication", "Division"],
+                "answer": "Multiplication",
+                "marks": 2
+              },
+              {
+                "question": "Which instruction format has no operand field?",
+                "options": ["Zero-address", "One-address", "Two-address", "Three-address"],
+                "answer": "Zero-address",
+                "marks": 1
+              },
+              {
+                "question": "Which of the following uses memory-mapped I/O?",
+                "options": ["Special I/O instructions", "Address space sharing", "Dedicated memory lines", "None"],
+                "answer": "Address space sharing",
+                "marks": 1
+              },
+              {
+                "question": "Which bus is bidirectional?",
+                "options": ["Data bus", "Address bus", "Control bus", "None"],
+                "answer": "Data bus",
+                "marks": 1
+              },
+              {
+                "question": "How many instructions can be stored in 1KB memory if each instruction is 32 bits?",
+                "options": ["128", "256", "512", "1024"],
+                "answer": "256",
+                "marks": 2
+              },
+              {
+                "question": "Which counter is used in digital clocks?",
+                "options": ["Ring counter", "Up counter", "Down counter", "BCD counter"],
+                "answer": "BCD counter",
+                "marks": 1
+              },
+              {
+                "question": "In a 4-stage pipeline, what is the ideal speed-up?",
+                "options": ["2", "4", "8", "16"],
+                "answer": "4",
+                "marks": 1
+              },
+              {
+                "question": "The hit ratio is 0.9. Memory access time is 100 ns, and cache access time is 10 ns. What is the average access time?",
+                "options": ["19 ns", "20 ns", "10 ns", "91 ns"],
+                "answer": "19 ns",
+                "marks": 2
+              },
+              {
+                "question": "A Von Neumann architecture stores data and instructions:",
+                "options": ["In separate memory", "In same memory", "Only in registers", "In stack"],
+                "answer": "In same memory",
+                "marks": 1
+              },
+              {
+                "question": "Which register holds the data to be written into memory?",
+                "options": ["MDR", "MAR", "PC", "IR"],
+                "answer": "MDR",
+                "marks": 1
+              },
+              {
+                "question": "Instruction pipelining improves:",
+                "options": ["Instruction size", "Clock speed", "Throughput", "Latency"],
+                "answer": "Throughput",
+                "marks": 2
+              },
+              {
+                "question": "In microprogrammed control units, control signals are generated using:",
+                "options": ["Counters", "Flip-flops", "Control memory", "ALU"],
+                "answer": "Control memory",
+                "marks": 2
+              },
+              {
+                "question": "Which type of cache mapping is fastest?",
+                "options": ["Direct", "Associative", "Set associative", "Random"],
+                "answer": "Direct",
+                "marks": 1
+              },
+              {
+                "question": "What is the content of the stack pointer after a PUSH operation in 8085?",
+                "options": ["Increased by 1", "Decreased by 1", "Increased by 2", "Decreased by 2"],
+                "answer": "Decreased by 2",
+                "marks": 2
+              }
+            ]
+          }
+          

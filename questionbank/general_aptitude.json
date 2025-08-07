@@ -1,0 +1,198 @@
+{
+    "questions": [
+        {
+            "question": "In the 4 x 4 array shown above, each cell of the first three rows has either a cross (X) or a number. The number in a cell represents the count of the immediate neighboring cells (left, right, top, bottom, diagonals) NOT having a cross (X). Given that the last row has no crosses (X), the sum of the four numbers to be filled in the last row is",
+            "image": "../questionbank/ap1.png",
+            "options": ["10", "11", "12", "9"],
+            "answer": "11",
+            "marks": 2
+        },
+        {
+            "question": "A cube is to be cut into 8 pieces of equal size and shape. Here, each cut should be straight and it should not stop till it reaches the other end of the cube. The minimum number of such cuts required is",
+            "options": ["3", "4", "7", "8"],
+            "answer": "3",
+            "marks": 1
+        },
+        {
+            "question": "The pie charts depict the shares of various power generation technologies in the total electricity generation of a country for the years 2007 and 2023. The renewable sources of electricity generation consist of Hydro, Solar and Wind. Assuming that the total electricity generated remains the same from 2007 to 2023, what is the percentage increase in the share of the renewable sources of electricity generation over this period?",
+            "image": "../questionbank/ap2.png",
+            "options": ["25%", "50%", "77.50%", "62.50%"],
+            "answer": "62.50%",
+            "marks": 2
+        },
+        {
+            "question": "A person sold two different items at the same price. He made 10% profit in one item, and 10% loss in the other item. In selling these two items, the person made a total of",
+            "options": ["2% profit", "1% profit", "1% loss", "2% loss"],
+            "answer": "1% loss",
+            "marks": 1
+        },
+        {
+            "question": "Sequence the following sentences in a coherent passage.<br><br>P: This fortuitous geological event generated a colossal amount of energy and heat that resulted in the rocks rising to an average height of 4 km across the contact zone.<br>Q: Thus, the geophysicists tend to think of the Himalayas as an active geological event rather than as a static geological feature.<br>R: The natural process of the cooling of this massive edifice absorbed large quantities of atmospheric carbon dioxide, altering the earth?s atmosphere and making it better suited for life.<br>S: Many millennia ago, a breakaway chunk of bedrock from the Antarctic Plate collided with the massive Eurasian Plate.",
+            "options": ["SPRQ", "SRPQ", "QSPR", "QPSR"],
+            "answer": "SPRQ",
+            "marks": 2
+        },
+        {
+            "question": "In the sequence 6, 9, 14, x, 30, 41, a possible value of x is",
+            "options": ["25", "21", "18", "20"],
+            "answer": "21",
+            "marks": 1
+        },
+        {
+            "question": "In the sequence 6, 9, 14, x, 30, 41, a possible value of x is",
+            "options": ["1800", "3500", "1600", "1500"],
+            "answer": "1800",
+            "marks": 1
+        },
+        {
+            "question": "Two wizards try to create a spell using all the four elements, water, air, fire, and earth. For this, they decide to mix all these elements in all possible orders. They also decide to work independently. After trying all possible combination of elements, they conclude that the spell does not work. How many attempts does each wizard make before coming to this conclusion, independently?",
+            "options": ["24", "48", "16", "12"],
+            "answer": "24",
+            "marks": 1
+        },
+        {
+            "question": "If '→' denotes increasing order of intensity, then the meaning of the words [walk → jog → sprint] is analogous to [bothered → ________ → daunted].<br>Which one of the given options is appropriate to fill the blank?",
+            "options": ["phased", "phrased", "fazed", "fused"],
+            "answer": "fazed",
+            "marks": 1
+        },
+        {
+            "question": "The least number of squares to be added in the figure to make AB a line of symmetry is",
+            "image": "../questionbank/ap3.png",
+            "options": ["6", "4", "5", "7"],
+            "answer": "6",
+            "marks": 2
+        },
+        {
+            "question": "A rectangular paper of 20cm x 8cm is folded 3 times. Each fold is made along the line of symmetry, which is perpendicular to its long edge. The perimeter of the final folded sheet (in cm) is",
+            "options": ["21", "20", "24", "18"],
+            "answer": "18",
+            "marks": 2
+        },
+        {
+            "question": "The pie chart presents the percentage contribution of different macronutrients to a typical 2,000 kcal diet of a person. The total fat (all three types), in grams, this person consumes is",
+            "image": "../questionbank/ap4.png",
+            "options": ["3600", "100", "78.7", "44.4"],
+            "answer": "100",
+            "marks": 1
+        },
+        {
+            "question": "A rectangular paper sheet of dimensions 54cm x 4cm is taken. The two longer edges of the sheet are joined together to create a cylindrical tube. A cube whose surface area is equal to the area of the sheet is also taken.<br>Then, the ratio of the volume of the cylindrical tube to the volume of the cube is",
+            "options": ["1/π", "2/π", "3/π", "4/π"],
+            "answer": "1/π",
+            "marks": 2
+        },
+        {
+            "question": "In the given text, the blanks are numbered (i)-(iv).<br> Select the best match for all the blanks. Steve was advised to keep his head ___(i)___ before heading __(ii)__ to bat; for, while he had a head __(iii)__ batting, he could only do so with a cool head s __(iv)__ his shoulders",
+            "options": ["(i) on (ii) down (iii) for (iv) on", "(i) down (ii) out (iii) for (iv) on", "(i) on (ii) out (iii) on (iv) for", "(i) down (ii) down (iii) on (iv) for"],
+            "answer": "(i) down (ii) out (iii) for (iv) on",
+            "marks": 1
+        },
+        {
+            "question": "The number of coins of Rs. 1, Rs. 5, and Rs. 10 denominations that a person has are in the ratio 5:3:13. Of the total amount, the percentage of money in Rs. 5 coins is",
+            "options": ["30%", "14.28%", "10%", "21%"],
+            "answer": "10%",
+            "marks": 1
+        },
+        {
+            "question": "Consider the following sample of numbers:<br><br>9, 18, 11, 14, 15, 17, 10, 69, 11, 13<br><br>The median of the sample is",
+            "options": ["13.5", "14", "11", "18.7"],
+            "answer": "13.5",
+            "marks": 1
+        },
+        {
+            "question": "If two distinct non-zero real variables x and y are such that (x+y) is proportional to (x−y) then the value of x/y",
+            "options": ["depends on xy", "depends only on x and not on y", "depends only on y and not on z", "is a constant"],
+            "answer": "is a constant",
+            "marks": 2
+        },
+        {
+            "question": "If '→' denotes increasing order of intensity, then the meaning of the words [dry → arid → parched] is analogous to [diet → fast → _____].<br>Which one of the given options is appropriate to fill the blank?",
+            "options": ["deny", "feast", "reject", "starve"],
+            "answer": "starve",
+            "marks": 1
+        },
+        {
+            "question": "Which one of the options best describes the transformation of the 2-dimensional figure P to Q, and then to R, as shown?",
+            "image": "../questionbank/ap5.png",
+            "options": ["Operation 1: A counter clockwise rotation by 180 degree about an axis perpendicular to the plane of the figure<br>Operation 2: A reflection along a vertical line", "Operation 1: A clockwise rotation by 90 degree about an axis perpendicular to the plane of the figure<br>Operation 2: A reflection along a vertical line", "Operation 1: A counter clockwise rotation by 90 degree about an axis perpendicular to the plane of the figure<br>Operation 2: A reflection along a horizontal line", "Operation 1: A clockwise rotation by 90 degree  about an axis perpendicular to the plane of the figure<br>Operation 2: A reflection along a horizontal line"],
+            "answer": "Operation 1: A clockwise rotation by 90 degree  about an axis perpendicular to the plane of the figure<br>Operation 2: A reflection along a horizontal line",
+            "marks": 2
+        },
+        {
+            "question": "Which one of the following sentence sequences creates a coherent narrative?<br><br>(i) Once on the terrace, on her way to her small room in the corner, she notices the man right away.<br>(ii) She begins to pant by the time she has climbed all the stairs.<br>(iii) Mina has bought vegetables and rice at the market, so her bags are heavy.<br>(iv) He was leaning against the parapet, watching the traffic below.",
+            "options": ["(i), (ii), (iv), (iii)", "(ii), (iii), (i), (iv)", "(iv), (ii), (i), (iii)", "(iii), (ii), (i), (iv)"],
+            "answer": "(iii), (ii), (i), (iv)",
+            "marks": 1
+        },
+        {
+            "question": "The country of Zombieland is in distress since more than 75% of its working population is suffering from serious health issues. Studies conducted by competent health experts concluded that a complete lack of physical exercise among its working population was one of the leading causes of their health issues. As one of the measures to address the problem, the Government of Zombieland has decided to provide monetary incentives to those who ride bicycles to work.<br>Based only on the information provided above, which one of the following statements can be logically inferred with certainty?",
+            "options": ["The health experts suggested to the Government of Zombieland to declare riding bicycles as mandatory.", "The Government of Zombieland believes that riding bicycles is a form of physical exercise.", "Riding bicycles will ensure that all of the working population of Zombieland is free of health issues.", "All the working population of Zombieland will henceforth ride bicycles to work."],
+            "answer": "The Government of Zombieland believes that riding bicycles is a form of physical exercise.",
+            "marks": 1
+        },
+        {
+            "question": "Looking at the surface of a smooth 3-dimensional object from the outside, which one of the following options is TRUE?",
+            "options": ["The object can have edges, but no corners.", "The surface of the object may be concave in some places and convex in other places.", "The surface of the object must be convex everywhere.", "The surface of the object must be concave everywhere."],
+            "answer": "The surface of the object may be concave in some places and convex in other places.",
+            "marks": 1
+        },
+        {
+            "question": "The object can have edges, but no corners.<br>Given this information, which one of the following statements can be inferred with certainty?",
+            "options": ["Less than half of the pregnant women received medical care at most once from a doctor.", "More than half of the pregnant women received medical care at most once from a doctor.", "Less than half of the pregnant women received medical care at least once from a doctor.", "More than half of the pregnant women received medical care at least once from a doctor."],
+            "answer": "More than half of the pregnant women received medical care at least once from a doctor.",
+            "marks": 1
+        },
+        {
+            "question": "We reached the station late, and _______ missed the train.",
+            "options": ["nearly", "near", "utterly", "mostly"],
+            "answer": "nearly",
+            "marks": 1
+        },
+        {
+            "question":"",
+            "options":["","","",""],
+            "answer":""
+        },
+        {
+            "question":"",
+            "options":["","","",""],
+            "answer":""
+        },
+        {
+            "question":"",
+            "options":["","","",""],
+            "answer":""
+        },
+        {
+            "question":"",
+            "options":["","","",""],
+            "answer":""
+        },
+        {
+            "question":"",
+            "options":["","","",""],
+            "answer":""
+        },
+        {
+            "question":"",
+            "options":["","","",""],
+            "answer":""
+        },
+        {
+            "question":"",
+            "options":["","","",""],
+            "answer":""
+        },
+        {
+            "question":"",
+            "options":["","","",""],
+            "answer":""
+        },
+        {
+            "question":"",
+            "options":["","","",""],
+            "answer":""
+        }
+    ]
+}

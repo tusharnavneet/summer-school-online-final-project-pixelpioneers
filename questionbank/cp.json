@@ -1,0 +1,256 @@
+{
+    "questions":[
+        {
+            "question":"Consider the following C program. The output of the given C program is ________. (Answer in integer)",
+            "image":"../questionbank/cs1.png",
+            "type":"numerical",
+            "answer":46,
+            "marks":2
+        },
+        {
+            "question":"Consider the following C program. The output of the above program is ___________. (Answer in integer)",
+            "image":"../questionbank/cs2.png",
+            "type":"numerical",
+            "answer":111,
+            "marks":2
+        },
+        {
+            "question":"The output of the given C code segment is ________. (Answer in integer)",
+            "image":"../questionbank/cs3.png",
+            "type":"numerical",
+            "answer":21,
+            "marks":1
+        },
+        {
+            "question":"Which ONE of the following will be the output of the program?",
+            "image":"../questionbank/cs4.png",
+            "options":["@#Hello World!","Hello World!","ello World!","Hello World!d!"],
+            "answer": "Hello World!d!",
+            "marks":2
+        },
+        {
+            "question":"Consider the following C program. The output of the above program is ___________. (Answer in integer)",
+            "image":"../questionbank/cs5.png",
+            "type":"numerical",
+            "answer":46,
+            "marks":1
+        },
+        {
+            "question":"Consider the following C program. Assume that the input to the program from the command line is 1234 followed by a newline character. Which one of the following statements is CORRECT?",
+            "image":"../questionbank/cs6.png",
+            "options":["The program will not terminate","The program will terminate with no output","The program will terminate with 4321 as output","The program will terminate with 1234 as output"],
+            "answer":"The program will terminate with 4321 as output",
+            "marks":2
+        },
+        {
+            "question":"What is printed by the following ANSI C program?",
+            "image":"../questionbank/cs7.png",
+            "options":["z K S","122 75 83","* - +","P x +"],
+            "answer":"z K S",
+            "marks":1
+        },
+        {
+            "question": "Which of the following is a correct declaration of a pointer to an integer?",
+            "options": ["int *ptr;", "int ptr*;", "*int ptr;", "int ptr;&"],
+            "answer": "int *ptr;",
+            "marks": 1
+          },
+          {
+            "question": "Which of the following function declaration is correct in C?",
+            "options": ["int func(int);", "int func(int a);", "int func();", "All of the above"],
+            "answer": "All of the above",
+            "marks": 1
+          },
+          {
+            "question": "What will be the output of the following code?<br>```c<br>int a = 5;<br>printf(\"%d\", a++ + ++a);<br>```",
+            "options": ["11", "12", "13", "Compiler Error"],
+            "answer": "12",
+            "marks": 2
+          },
+          {
+            "question": "What is the size of an empty struct in C?",
+            "options": ["0", "1", "Depends on compiler", "Not allowed in C"],
+            "answer": "Not allowed in C",
+            "marks": 2
+          },
+          {
+            "question": "Which of the following header file is required for malloc() function?",
+            "options": ["stdlib.h", "malloc.h", "stdio.h", "memory.h"],
+            "answer": "stdlib.h",
+            "marks": 1
+          },
+          {
+            "question": "What is the output of: `printf(\"%d\", (5 < 2 < 8));`?",
+            "options": ["1", "0", "8", "Undefined"],
+            "answer": "1",
+            "marks": 2
+          },
+          {
+            "question": "Which of the following is a storage class in C?",
+            "options": ["static", "volatile", "signed", "long"],
+            "answer": "static",
+            "marks": 1
+          },
+          {
+            "question": "Which operator is used to access the value at the address stored in a pointer?",
+            "options": ["*", "&", "->", "%"],
+            "answer": "*",
+            "marks": 1
+          },
+          {
+            "question": "Which of these correctly defines a macro in C?",
+            "options": ["#macro MAX 100", "define MAX 100", "#define MAX 100", "macro MAX = 100"],
+            "answer": "#define MAX 100",
+            "marks": 1
+          },
+          {
+            "question": "What is the output of following c program:<br>int a = 10;<br>int b = ++a + a++;<br>printf(\"%d\", b);<br>",
+            "options": ["21", "22", "20", "23"],
+            "answer": "22",
+            "marks": 2
+          },
+          {
+            "question": "What does `calloc()` return if memory allocation fails?",
+            "options": ["0", "NULL", "-1", "Garbage value"],
+            "answer": "NULL",
+            "marks": 1
+          },
+          {
+            "question": "What is the correct syntax to declare a 2D array of integers?",
+            "options": ["int arr[10][10];", "int[10][10] arr;", "int arr[10,10];", "array int arr[10][10];"],
+            "answer": "int arr[10][10];",
+            "marks": 1
+          },
+          {
+            "question": "Which of these is a valid C string?",
+            "options": ["'abc'", "\"abc\"", "`abc`", "[abc]"],
+            "answer": "\"abc\"",
+            "marks": 1
+          },
+          {
+            "question": "Which keyword is used to prevent a variable from being changed?",
+            "options": ["volatile", "static", "const", "extern"],
+            "answer": "const",
+            "marks": 1
+          },
+          {
+            "question": "What is the output of:<br>```c<br>int x = 0;<br>if (x = 5)<br>  printf(\"True\");<br>else<br>  printf(\"False\");<br>```",
+            "options": ["True", "False", "Compiler Error", "Runtime Error"],
+            "answer": "True",
+            "marks": 2
+          },
+          {
+            "question": "Which format specifier is used to print a float value in printf()?",
+            "options": ["%c", "%d", "%f", "%x"],
+            "answer": "%f",
+            "marks": 1
+          },
+          {
+            "question": "What is the return type of `main()` in standard C?",
+            "options": ["int", "void", "float", "char"],
+            "answer": "int",
+            "marks": 1
+          },
+          {
+            "question": "Which of the following is used to deallocate memory allocated by malloc()?",
+            "options": ["free()", "delete()", "remove()", "dealloc()"],
+            "answer": "free()",
+            "marks": 1
+          },
+          {
+            "question": "Which one of these is not a valid C identifier?",
+            "options": ["_var1", "1var", "var_1", "varOne"],
+            "answer": "1var",
+            "marks": 1
+          },
+          {
+            "question": "Which of the following is used to define a symbolic constant?",
+            "options": ["const", "#define", "enum", "static"],
+            "answer": "#define",
+            "marks": 1
+          },
+          {
+            "question":"Consider the following ANSI C program.The output of the program upon execution is ____",
+            "image":"../questionbank/cs8.png",
+            "type":"numerical",
+            "answer":60,
+            "marks":2
+          },
+          {
+            "question":"Consider the following ANSI C code segment. Assume that the variable y points to a struct (allocated on the heap) containing two fields f1 and f2, and the local variables x, y, z, p, q, and i are allotted registers. Common sub-expression elimination (CSE) optimization is applied on the code. The number of addition and the dereference operations (of the form y -> f1 or y -> f2) in the optimized code, respectively, are:",
+            "image":"../questionbank/cs9.png",
+            "options":["403 and 102","203 and 2","303 and 102","303 and 2"],
+            "answer":"303 and 2",
+            "marks":2
+          },
+          {
+            "question":"Consider the following ANSI C function.The value returned by SomeFunction(15, 255) is __________",
+            "image":"../questionbank/cs11.png",
+            "type":"numerical",
+            "answer":15,
+            "marks":2
+          },
+          {
+            "question":"Consider the following ANSI C program.What is the output of the above program?",
+            "image":"../questionbank/cs10.png",
+            "options":["24","14","20","30"],
+            "answer":"24",
+            "marks":2
+          },
+          {
+            "question":"Consider the following ANSI C function.et Z be an array of 10 elements with Z[i]=1, for all i such that 0≤i≤9. The value returned by SimpleFunction(Z,10,2) is __________",
+            "image":"../questionbank/cs12.png",
+            "type":"numerical",
+            "answer":1023,
+            "marks":2
+          },
+          {
+            "question":"Consider the following ANSI C program.Which one of the following options is correct?",
+            "image":"../questionbank/cs12.png",
+            "options":["The program will not compile successfully","The program will compile successfully and output 10 when executed","The program will compile successfully and output 8 when executed","The program will compile successfully and output 13 when executed"],
+            "answer":"The program will compile successfully and output 10 when executed",
+            "marks":1
+          },
+          {
+            "question":"What is the output of the code given below?",
+            "image":"../questionbank/cs16.png",
+            "options":["100","110","44","40"],
+            "answer":"110",
+            "marks":1
+          },
+          {
+            "question":"Consider the following recursive C function that takes two arguments.What is the return value of the function rer when it is called as rer(513,2)?",
+            "image":"../questionbank/cs17.png",
+            "options":["7","5","2","9"],
+            "answer":"2",
+            "marks":2
+          },
+          {
+            "question":"Consider the following C functions.The value returned by pp(3,4) is _____",
+            "image":"../questionbank/cs18.png",
+            "type":"numerical",
+            "answer":"81",
+            "marks":2
+          },
+          {
+            "question":"What is output of the following 'C' code assuming it runs on a byte addressed little endian machine?",
+            "image":"../questionbank/cs15.png",
+            "options":["110","22","311","622"],
+            "answer":"110",
+            "marks":2
+          },
+          {
+            "question":"What is the output in a 32 bit machine with 32 bit compiler?",
+            "image":"../questionbank/cs14.png",
+            "options":["60,70","50,50","50,60","60,50"],
+            "answer":"60,50",
+            "marks":2
+          }, {
+            "question":"then the value of Z will be set equal to",
+            "image":"../questionbank/cs13.png",
+            "options":["5","8","13","0"],
+            "answer":"8",
+            "marks":1
+          }
+    ]
+}

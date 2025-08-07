@@ -1,0 +1,609 @@
+{
+    "questions": [
+      {
+        "question": "Which of the following is a tautology?",
+        "options": [
+          "p ∨ ¬p",
+          "p ∧ ¬p",
+          "p → (q ∧ ¬q)",
+          "p ↔ ¬p"
+        ],
+        "answer": "p ∨ ¬p",
+        "marks": 1
+      },
+      {
+        "question": "How many edges are there in a complete graph with 5 vertices?",
+        "options": [
+          "10",
+          "15",
+          "20",
+          "25"
+        ],
+        "answer": "10",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following relations is reflexive but not symmetric?",
+        "options": [
+          "R = {(1,1), (2,2), (3,3)}",
+          "R = {(1,1), (2,2), (3,3), (1,2)}",
+          "R = {(1,1), (2,2), (3,3), (1,2), (2,1)}",
+          "R = {(1,2), (2,3), (1,3)}"
+        ],
+        "answer": "R = {(1,1), (2,2), (3,3), (1,2)}",
+        "marks": 2
+      },
+      {
+        "question": "What is the number of vertices in a full binary tree with 20 leaves?",
+        "options": [
+          "39",
+          "40",
+          "41",
+          "42"
+        ],
+        "answer": "39",
+        "marks": 2
+      },
+      {
+        "question": "Which of the following is NOT a valid property of equivalence relations?",
+        "options": [
+          "Reflexivity",
+          "Symmetry",
+          "Transitivity",
+          "Commutativity"
+        ],
+        "answer": "Commutativity",
+        "marks": 1
+      },
+      {
+        "question": "The number of distinct Boolean functions of n variables is:",
+        "options": [
+          "2^n",
+          "n^2",
+          "2^(2^n)",
+          "n^n"
+        ],
+        "answer": "2^(2^n)",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following graphs is Eulerian but not Hamiltonian?",
+        "options": [
+          "Complete graph K5",
+          "Cycle graph C5",
+          "Complete bipartite graph K3,3",
+          "Graph with two vertices and one edge"
+        ],
+        "answer": "Complete bipartite graph K3,3",
+        "marks": 2
+      },
+      {
+        "question": "The chromatic number of a complete bipartite graph K3,3 is:",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "answer": "2",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following is the contrapositive of 'If it rains, then I stay home'?",
+        "options": [
+          "If I stay home, then it rains",
+          "If I don't stay home, then it doesn't rain",
+          "If it doesn't rain, then I don't stay home",
+          "I stay home only if it rains"
+        ],
+        "answer": "If I don't stay home, then it doesn't rain",
+        "marks": 1
+      },
+      {
+        "question": "The number of edges in a tree with 10 vertices is:",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "answer": "9",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following is the correct negation of ∀x∃y(P(x,y))?",
+        "options": [
+          "∃x∀y(¬P(x,y))",
+          "∀x∃y(¬P(x,y))",
+          "∃x∃y(¬P(x,y))",
+          "∀x∀y(¬P(x,y))"
+        ],
+        "answer": "∃x∀y(¬P(x,y))",
+        "marks": 2
+      },
+      {
+        "question": "The number of distinct permutations of the letters in 'MISSISSIPPI' is:",
+        "options": [
+          "11!",
+          "11!/(4!4!2!)",
+          "11!/(4!4!)",
+          "11!/(2!)"
+        ],
+        "answer": "11!/(4!4!2!)",
+        "marks": 2
+      },
+      {
+        "question": "Which of the following is NOT a valid logical equivalence?",
+        "options": [
+          "¬(p ∧ q) ≡ ¬p ∨ ¬q",
+          "p → q ≡ ¬q → ¬p",
+          "p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r)",
+          "p → q ≡ ¬p ∧ q"
+        ],
+        "answer": "p → q ≡ ¬p ∧ q",
+        "marks": 1
+      },
+      {
+        "question": "The number of edges in a complete graph with n vertices is:",
+        "options": [
+          "n",
+          "n^2",
+          "n(n-1)/2",
+          "2^n"
+        ],
+        "answer": "n(n-1)/2",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following is true about a bipartite graph?",
+        "options": [
+          "It contains no cycles",
+          "It can be colored with 2 colors",
+          "It has an odd number of vertices",
+          "All vertices have even degree"
+        ],
+        "answer": "It can be colored with 2 colors",
+        "marks": 1
+      },
+      {
+        "question": "The solution to the recurrence relation T(n) = T(n-1) + 1 with T(0) = 1 is:",
+        "options": [
+          "n",
+          "n+1",
+          "n^2",
+          "2^n"
+        ],
+        "answer": "n+1",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following is the generating function for the sequence 1,1,1,1,...?",
+        "options": [
+          "1/(1-x)",
+          "1/(1+x)",
+          "1/(1-x^2)",
+          "1/(1+x^2)"
+        ],
+        "answer": "1/(1-x)",
+        "marks": 1
+      },
+      {
+        "question": "The number of ways to arrange 5 distinct books on a shelf is:",
+        "options": [
+          "25",
+          "120",
+          "3125",
+          "1"
+        ],
+        "answer": "120",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following is NOT a group property?",
+        "options": [
+          "Closure",
+          "Associativity",
+          "Commutativity",
+          "Existence of inverse"
+        ],
+        "answer": "Commutativity",
+        "marks": 1
+      },
+      {
+        "question": "The number of subsets of a set with n elements is:",
+        "options": [
+          "n",
+          "n^2",
+          "2^n",
+          "n!"
+        ],
+        "answer": "2^n",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following graphs is planar?",
+        "options": [
+          "Complete graph K5",
+          "Complete bipartite graph K3,3",
+          "Graph with 4 vertices and 6 edges",
+          "Graph with 5 vertices and 10 edges"
+        ],
+        "answer": "Graph with 4 vertices and 6 edges",
+        "marks": 2
+      },
+      {
+        "question": "The number of binary relations from a set A with m elements to a set B with n elements is:",
+        "options": [
+          "m+n",
+          "m×n",
+          "2^(m×n)",
+          "m^n"
+        ],
+        "answer": "2^(m×n)",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following is the correct representation of 'All dogs are mammals' in predicate logic?",
+        "options": [
+          "∀x(Dog(x) ∧ Mammal(x))",
+          "∀x(Dog(x) → Mammal(x))",
+          "∃x(Dog(x) → Mammal(x))",
+          "∃x(Dog(x) ∧ Mammal(x))"
+        ],
+        "answer": "∀x(Dog(x) → Mammal(x))",
+        "marks": 1
+      },
+      {
+        "question": "The number of distinct Hamiltonian cycles in a complete graph with n vertices is:",
+        "options": [
+          "n",
+          "n!",
+          "(n-1)!",
+          "(n-1)!/2"
+        ],
+        "answer": "(n-1)!/2",
+        "marks": 2
+      },
+      {
+        "question": "Which of the following is true about a connected planar graph with e edges, v vertices and f faces?",
+        "options": [
+          "v - e + f = 2",
+          "v + e - f = 2",
+          "v + e + f = 2",
+          "v - e - f = 2"
+        ],
+        "answer": "v - e + f = 2",
+        "marks": 1
+      },
+      {
+        "question": "The number of ways to choose a committee of 3 people from 10 is:",
+        "options": [
+          "30",
+          "120",
+          "720",
+          "1000"
+        ],
+        "answer": "120",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following is the dual of the Boolean expression x + y·z?",
+        "options": [
+          "x·(y + z)",
+          "x + y + z",
+          "x·y·z",
+          "x + y·z"
+        ],
+        "answer": "x·(y + z)",
+        "marks": 1
+      },
+      {
+        "question": "The number of one-to-one functions from a set with m elements to a set with n elements (m ≤ n) is:",
+        "options": [
+          "n^m",
+          "m^n",
+          "n!/(n-m)!",
+          "m!/(m-n)!"
+        ],
+        "answer": "n!/(n-m)!",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following is NOT a valid inference rule?",
+        "options": [
+          "Modus Ponens",
+          "Modus Tollens",
+          "Hypothetical Syllogism",
+          "Circular Reasoning"
+        ],
+        "answer": "Circular Reasoning",
+        "marks": 1
+      },
+      {
+        "question": "The number of edges in a cube (as a graph) is:",
+        "options": [
+          "8",
+          "12",
+          "16",
+          "20"
+        ],
+        "answer": "12",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following is the correct translation of 'No cats are dogs' in predicate logic?",
+        "options": [
+          "¬∃x(Cat(x) ∧ Dog(x))",
+          "∃x(Cat(x) ∧ ¬Dog(x))",
+          "∀x(Cat(x) → ¬Dog(x))",
+          "Both A and C"
+        ],
+        "answer": "Both A and C",
+        "marks": 2
+      },
+      {
+        "question": "The solution to the recurrence relation T(n) = 2T(n/2) + n with T(1) = 1 is:",
+        "options": [
+          "O(n)",
+          "O(n log n)",
+          "O(n^2)",
+          "O(2^n)"
+        ],
+        "answer": "O(n log n)",
+        "marks": 2
+      },
+      {
+        "question": "Which of the following is a valid walk in a graph but not necessarily a path?",
+        "options": [
+          "A sequence of adjacent vertices with no repetitions",
+          "A sequence of adjacent edges with no repetitions",
+          "A sequence of adjacent vertices that may repeat vertices",
+          "A sequence that visits all vertices exactly once"
+        ],
+        "answer": "A sequence of adjacent vertices that may repeat vertices",
+        "marks": 1
+      },
+      {
+        "question": "The number of ways to distribute 10 identical balls into 4 distinct boxes is:",
+        "options": [
+          "10^4",
+          "4^10",
+          "C(13,3)",
+          "P(10,4)"
+        ],
+        "answer": "C(13,3)",
+        "marks": 2
+      },
+      {
+        "question": "Which of the following is true about a partial order relation?",
+        "options": [
+          "It must be total",
+          "It must be symmetric",
+          "It must be antisymmetric",
+          "It must be complete"
+        ],
+        "answer": "It must be antisymmetric",
+        "marks": 1
+      },
+      {
+        "question": "The number of leaves in a complete binary tree of height h is:",
+        "options": [
+          "h",
+          "2^h",
+          "2^(h+1)",
+          "2^(h-1)"
+        ],
+        "answer": "2^h",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following is the correct simplification of the Boolean expression x + x'y?",
+        "options": [
+          "x",
+          "y",
+          "x + y",
+          "x'y"
+        ],
+        "answer": "x + y",
+        "marks": 1
+      },
+      {
+        "question": "The number of binary strings of length n with exactly k 1's is:",
+        "options": [
+          "n!",
+          "k!",
+          "C(n,k)",
+          "P(n,k)"
+        ],
+        "answer": "C(n,k)",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following is true about a spanning tree of a connected graph G?",
+        "options": [
+          "It must contain all edges of G",
+          "It must contain all vertices of G",
+          "It must be unique",
+          "It must be a complete graph"
+        ],
+        "answer": "It must contain all vertices of G",
+        "marks": 1
+      },
+      {
+        "question": "The number of derangements (permutations where no element appears in its original position) of 4 elements is:",
+        "options": [
+          "4",
+          "9",
+          "16",
+          "24"
+        ],
+        "answer": "9",
+        "marks": 2
+      },
+      {
+        "question": "Which of the following is the correct representation of 'Some birds cannot fly' in predicate logic?",
+        "options": [
+          "∃x(Bird(x) ∧ ¬CanFly(x))",
+          "∀x(Bird(x) → ¬CanFly(x))",
+          "¬∃x(Bird(x) ∧ CanFly(x))",
+          "¬∀x(Bird(x) → CanFly(x))"
+        ],
+        "answer": "∃x(Bird(x) ∧ ¬CanFly(x))",
+        "marks": 1
+      },
+      {
+        "question": "The number of distinct Boolean functions with 3 variables is:",
+        "options": [
+          "8",
+          "16",
+          "256",
+          "65536"
+        ],
+        "answer": "256",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following is true about a simple graph with n vertices where each vertex has degree at least n/2?",
+        "options": [
+          "It must be planar",
+          "It must be Hamiltonian",
+          "It must be Eulerian",
+          "It must be a tree"
+        ],
+        "answer": "It must be Hamiltonian",
+        "marks": 2
+      },
+      {
+        "question": "The number of ways to climb a staircase with 10 steps, taking 1 or 2 steps at a time, is equal to:",
+        "options": [
+          "10th Fibonacci number",
+          "10th Catalan number",
+          "2^10",
+          "10!"
+        ],
+        "answer": "10th Fibonacci number",
+        "marks": 2
+      },
+      {
+        "question": "Which of the following is the correct negation of 'If x is even, then x^2 is even'?",
+        "options": [
+          "If x is not even, then x^2 is not even",
+          "x is even and x^2 is not even",
+          "If x^2 is even, then x is even",
+          "x is not even or x^2 is even"
+        ],
+        "answer": "x is even and x^2 is not even",
+        "marks": 1
+      },
+      {
+        "question": "The number of distinct spanning trees of a complete graph with 4 vertices is:",
+        "options": [
+          "4",
+          "8",
+          "16",
+          "64"
+        ],
+        "answer": "16",
+        "marks": 2
+      },
+      {
+        "question": "Which of the following is NOT a valid rule of inference in propositional logic?",
+        "options": [
+          "Conjunction",
+          "Simplification",
+          "Addition",
+          "Multiplication"
+        ],
+        "answer": "Multiplication",
+        "marks": 1
+      },
+      {
+        "question": "The number of ways to partition a set of 4 distinct elements into two subsets of 2 elements each is:",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "answer": "3",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following is true about a graph where every vertex has even degree?",
+        "options": [
+          "It must be Hamiltonian",
+          "It must be Eulerian",
+          "It must be planar",
+          "It must be connected"
+        ],
+        "answer": "It must be Eulerian",
+        "marks": 1
+      },
+      {
+        "question": "The number of edges in a complete bipartite graph K3,4 is:",
+        "options": [
+          "7",
+          "12",
+          "24",
+          "64"
+        ],
+        "answer": "12",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following is the correct simplification of (A ∪ B) ∩ (A ∪ B')?",
+        "options": [
+          "A",
+          "B",
+          "A ∩ B",
+          "A ∪ B"
+        ],
+        "answer": "A",
+        "marks": 1
+      },
+      {
+        "question": "The number of ways to arrange 5 people in a circular table is:",
+        "options": [
+          "5",
+          "24",
+          "120",
+          "720"
+        ],
+        "answer": "24",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following is the correct representation of 'There is exactly one even prime number' in predicate logic?",
+        "options": [
+          "∃x(Even(x) ∧ Prime(x))",
+          "∃x∀y(Even(x) ∧ Prime(x) ∧ (Even(y) ∧ Prime(y) → y=x))",
+          "∀x(Even(x) → Prime(x))",
+          "∃x(Even(x) ∧ Prime(x) ∧ ∀y(Even(y) ∧ Prime(y) → y=x))"
+        ],
+        "answer": "∃x(Even(x) ∧ Prime(x) ∧ ∀y(Even(y) ∧ Prime(y) → y=x))",
+        "marks": 2
+      },
+      {
+        "question": "The number of distinct relations on a set with 3 elements is:",
+        "options": [
+          "9",
+          "64",
+          "512",
+          "4096"
+        ],
+        "answer": "512",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following is the chromatic polynomial for a tree with n vertices?",
+        "options": [
+          "k(k-1)^(n-1)",
+          "k(k-1)(k-2)...(k-n+1)",
+          "k^n",
+          "k(k-1)"
+        ],
+        "answer": "k(k-1)^(n-1)",
+        "marks": 2
+      }
+    ]
+  }

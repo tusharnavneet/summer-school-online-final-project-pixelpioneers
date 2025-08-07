@@ -1,0 +1,646 @@
+{
+    "questions": [
+        {
+            "question": "Given an integer array of size N,we want to check if the array is sorted (in either ascending or descending order). An algorithm solves this problem by making a single pass through the array and comparing each element of the array only with its adjacent elements. The worst-case time complexity of this algorithm is",
+            "options": ["Both O(N) and Ω(N)", "O(N) but not Ω(N)", "Ω(N) but not O(N)", "neither O(N) nor Ω(N)"],
+            "answer": "Both O(N) and Ω(N)",
+            "marks": 1
+        },
+        {
+            "question": "Consider 4-variable functions f1,f2,f3,f4 expressed in sum-of-minterms form as given below.<br>f1=∑(0,2,3,5,7,8,11,13)<br>f2=∑(1,3,5,7,11,13,15)<br>f3=∑(0,1,4,11)<br>f4=∑(0,2,6,13)<br>With respect to the circuit given below, which of the following options is/are CORRECT?",
+            "image": "../questionbank/mock1.webp",
+            "options": ["Y=∑(0,1,2,11,13)", "Y=Π(3,4,5,6,7,8,9,10,12,14,15)", "Y=∑(0,1,2,3,4,5,6,7)", "Y=Π(8,9,10,11,12,13,14,15)"],
+            "answer": ["Y=∑(0,1,2,3,4,5,6,7)", "Y=Π(8,9,10,11,12,13,14,15)"],
+            "marks": 2
+        },
+        {
+            "question": "Consider a digital logic circuit consisting of three 2-to-1 multiplexers M1, M2, and M3 as shown below. X1 and X2 are inputs of M1.X3 and X4 are inputs of M2. A,B and C are select lines of M1,M2 and M3 respectivily.<br>For an instance of inputs X1=X2=1,X3=0 and X4=0.the number of combinations of A,B,C  that give the output Y=1 is_____.",
+            "type": "numerical",
+            "image": "../questionbank/imgg2.webp",
+            "answer": 4,
+            "marks": 1
+        },
+        {
+            "question": "A particular number is written as 132 in radix-4 representation. The same number in radix-5 representation is ___",
+            "type": "numerical",
+            "answer": 110,
+            "marks": 1
+        },
+        {
+            "question": "Consider three floating point numbers A, B and C stored in registers R1 , R2 and R3 respectively as per IEEE-754 single precision floating point format. The 32-bit content stored in these registers (in hexadecimal form) are as follows.<br><br>R1 = 0xC1400000<br>R2 = 0x42100000<br>R3 = 0x41400000<br><br>Which one of the following is FALSE?",
+            "options": ["A + C = 0", "C = A + B", "B = 3C", "(B-C)>0"],
+            "answer": "C = A + B",
+            "marks": 2
+        },
+        {
+            "question": "Consider a permutation sampled uniformly at random from the set of all permutations of {1,2,3,.....,n} for some n>=4. Let X be the event that 1 occurs before 2 in the permutation, and Y  the event that 3 occurs before 4 . Which one of the following statements is TRUE?",
+            "options": ["The events X and Y are mutually exclusive", "The events X and Y are independent", "Either event X or Y must occur", "Event X is more likely than event Y"],
+            "answer": "The events X and Y are independent",
+            "marks": 1
+        },
+        {
+            "question": "Which one of the following statements is FALSE?",
+            "options": ["In the cycle stealing mode of DMA, one word of data is transferred between an I/O device and main memory in a stolen cycle", "For bulk data transfer, the burst mode of DMA has a higher throughput than the cycle stealing mode", "Programmed I/O mechanism has a better CPU utilization than the interrupt driven I/O mechanism", "The CPU can start executing an interrupt service routine faster with vectored interrupts than with non-vectored interrupts"],
+            "answer": "Programmed I/O mechanism has a better CPU utilization than the interrupt driven I/O mechanism",
+            "marks": 1
+        },
+        {
+            "question": "Which of the following statements is/are FALSE?",
+            "options": ["An attribute grammar is a syntax-directed definition (SDD) in which the functions in the semantic rules have no side effects", "The attributes in a L-attributed definition cannot always be evaluated in a depth- first order", "Synthesized attributes can be evaluated by a bottom-up parser as the input is parsed", "All L-attributed definitions based on LR(1) grammar can be evaluated using a bottom-up parsing strategy"],
+            "answer": ["The attributes in a L-attributed definition cannot always be evaluated in a depth- first order", "All L-attributed definitions based on LR(1) grammar can be evaluated using a bottom-up parsing strategy"],
+            "marks": 2
+        },
+        {
+            "question": "Consider the following two sets:<br> Set-A                               Set-B<br>P. Lexical Analyzer&nbsp;                 1. Abstract Syntax Tree<br>Q. Syntax Analyzer&nbsp;                  2. Token<br>R. Intermediate Code Generator&nbsp;                3. Parse Tree<br>S. Code Optimizer&nbsp;                4. Constant Folding<br><br>Which one of the following options is the CORRECT match from Set X to Set Y ?<br>",
+            "options": ["P-4; Q-1; R-3; S-2", "P-2; Q-3; R-1; S-4", "P-2; Q-1; R-3; S-4", "P-4; Q-3; R-2; S-1"],
+            "answer": "P-2; Q-3; R-1; S-4",
+            "marks": 1
+        },
+        {
+            "question": "Consider the following pseudo-code.<br>L1 : t1 = -1<br>L2 : t2 = 0<br>L3 : t3 = 0<br>L4 : t4 = 4 * t3<br>L5 : t5 = 4 * t2<br>L6 : t6 = t5 * M<br>L7 : t7 = t4 + t6<br>L8 : t8 = a[t7]<br>L9 : if t8 <= max goto L11<br>L10 : t1 = t8<br>L11 : t3 = t3 + 1 <br>L12 : if t3 < M goto L4 <br>L13 : t2 = t2 + 1<br>L14 : if t2 < N goto L3<br>L15 : max = t1<br><br>Which of of the following options CORRECTLY specifies the number of basic blocks and the number of instructions in the largest basic block, respectively?<br>",
+            "options": ["6 and 6", "6 and 7", "7 and 7", "7 and 6"],
+            "answer": "7 and 6",
+            "marks": 2
+        },
+        {
+            "question": "Consider the following grammar G, with S as the start symbol. The grammar G has three incomplete productions denoted by (1), (2), and (3).<br>S -> daT | (1)<br>T -> aS | bT | (2)<br>R -> (3) | ε<br><br>The set of terminals is {a,b,c,d,f}. The FIRST and FOLLOW sets of the different non-terminals are as follows.<br>​FIRST(S)={c,d,f},FIRST(T)={a,b,ϵ},FIRST(R)={c,ϵ}<br>FOLLOW(S)=FOLLOW(T)={c,f,$},FOLLOW(R)={f}<br><br>Which one of the following options CORRECTLY fills in the incomplete productions?<br>",
+            "options": ["(1)S -> Rf (2)T -> ϵ (3)R -> cTR", "(1)S -> fR (2)T -> ϵ (3)R -> cTR", "(1)S -> fR (2)T -> cT (3)R -> cR", "(1)S -> Rf (2)T -> cT (3)R -> cR"],
+            "answer": "(1)S -> Rf (2)T -> ϵ (3)R -> cTR",
+            "marks": 2
+        },
+        {
+            "question": "You are given a set V of distinct integers. A binary search tree T is created by inserting all elements of V one by one, starting with an empty tree. The tree T follows the convention that, at each node, all values stored in the left subtree of the node are smaller than the value stored at the node. You are not aware of the sequence in which these values were inserted into T, and you do not have access to T.Which one of the following statements is TRUE?",
+            "options": ["Inorder traversal of T can be determined from V", "Root node of T can be determined from V", "Preorder traversal of T can be determined from V", "Postorder traversal of T can be determined from V"],
+            "answer": "Inorder traversal of T can be determined from V",
+            "marks": 1
+        },
+        {
+            "question": "Let A be an array containing integer values. The distance of A is defined as the minimum number of elements in A that must be replaced with another integer so that the resulting array is sorted in non-decreasing order. The distance of the array [2,5,3,1,4,2,6] is _____",
+            "type": "numerical",
+            "answer": 3,
+            "marks": 1
+        },
+        {
+            "question": "Consider a binary min-heap containing 105 distinct elements. Let k be the index (in the underlying array) of the maximum element stored in the heap. The number of possible values of k is",
+            "options": ["54", "53", "27", "1"],
+            "answer": 53,
+            "marks": 2
+        },
+        {
+            "question": "An array [82,101,90,11,111,75,33,131,44,93] is heapified. Which one of the following options represents the first three elements in the heapified array?",
+            "options": ["82,90,101", "82,11,93", "131,11,93", "131,111,90"],
+            "answer": "131,111,90",
+            "marks": 1
+        },
+        {
+            "question": "The number of distinct minimum-weight spanning trees of the following graph is _______",
+            "image": "../questionbank/algo1.webp",
+            "type": "numerical",
+            "answer": 9,
+            "marks": 2
+        },
+        {
+            "question": "The number of spanning trees in a complete graph of 4 vertices labelled A, B, C, and D is _________",
+            "type": "numerical",
+            "answer": 16,
+            "marks": 1
+        },
+        {
+            "question": "Consider an array X that contains n positive integers. A subarray of X is defined to be a sequence of array locations with consecutive indices.The C code snippet given below has been written to compute the length of the longest subarray of X that contains at most two distinct integers. The code has two missing expressions labelled (P) and (Q).<br><br>int first=0, second=0, len1=0, len2=0, maxlen=0;<br>&nbsp;for(int i=0; i < n; i++) {<br>&nbsp;             if (X[i] == first) {<br> &nbsp;            len2++; len1++;<br> &nbsp;          }else if (X[i] == second) {     <br>&nbsp;            len2++;<br> &nbsp;        len1 = (P) ;<br>&nbsp;       second = first;<br> &nbsp;           } else {<br>   &nbsp;           len2 = (Q) ;<br> &nbsp;         len1 = 1; second = first;<br>&nbsp;            }<br>if (len2 > maxlen) {<br> &nbsp;            maxlen = len2;<br> &nbsp;                }<br>&nbsp;    first = X[i];<br>}<br><br>Which one of the following options gives the CORRECT missing expressions?<br>(Hint: At the end of the i-th iteration, the value of len1 is the length of the longest subarray ending with X[i] that contains all equal values, and len2 is the length of the longest subarray ending with X[i] that contains at most two distinct values.)<br>",
+            "options": ["(P) len1+1 (Q) len2+1", "(P) 1 (Q) len1+1", "(P) 1 (Q) len2+1", "(P) len2+1 (Q) len1+1"],
+            "answer": "(P) 1 (Q) len1+1",
+            "marks": 2
+        },
+        {
+            "question": "Consider a single processor system with four processes A, B, C, and D, represented as given below, where for each process the first value is its arrival time, and the second value is its CPU burst time.A (0, 10), B (2, 6), C (4, 3), and D (6, 7).Which one of the following options gives the average waiting times when preemptive Shortest Remaining Time First (SRTF) and Non-Preemptive Shortest Job First (NP-SJF) CPU scheduling algorithms are applied to the processes?",
+            "options": ["SRTF = 6, NP-SJF = 7", "SRTF = 6, NP-SJF = 7.5", "SRTF = 7, NP-SJF = 7.5", "SRTF = 7, NP-SJF = 8.5"],
+            "answer": "SRTF = 6, NP-SJF = 7.5",
+            "marks": 2
+        },
+        {
+            "question": "Which one or more of the following CPU scheduling algorithms can potentially cause starvation?",
+            "options": ["First-in First-Out", "Round Robin", "Priority Scheduling", "Shortest Job First"],
+            "answer": ["Priority Scheduling", "Shortest Job First"],
+            "marks": 1
+        },
+        {
+            "question": "Consider four processes P, Q, R, and S scheduled on a CPU as per round robin algorithm with a time quantum of 4 units. The processes arrive in the order P, Q, R, S, all at time t = 0. There is exactly one context switch from S to Q, exactly one context switch from R to Q, and exactly two context switches from Q to R. There is no context switch from S to P. Switching to a ready process after the termination of another process is also considered a context switch. Which one of the following is NOT possible as CPU burst time (in time units) of these processes?",
+            "options": ["P = 4, Q = 10, R = 6, S = 2", "P = 2, Q = 9, R = 5, S = 1", "P = 4, Q = 12, R = 5, S = 4", "P = 3, Q = 7, R = 7, S = 3"],
+            "answer": "P = 3, Q = 7, R = 7, S = 3",
+            "marks": 2
+        },
+        {
+            "question": "Which of the following statement(s) is/are correct in the context of CPU scheduling?",
+            "options": ["Turnaround time includes waiting time", "The goal is to only maximize CPU utilization and minimize throughput", "Round-robin policy can be used even when the CPU time required by each of the processes is not known apriori", "Implementing preemptive scheduling needs hardware support"],
+            "answer": ["Turnaround time includes waiting time", "Round-robin policy can be used even when the CPU time required by each of the processes is not known apriori", "Implementing preemptive scheduling needs hardware support"],
+            "marks": 1
+        },
+        {
+            "question": "Consider the following four processes with arrival times (in milliseconds) and their length of CPU burst (in milliseconds) as shown below. These processes are run on a single processor using preemptive Shortest Remaining Time First scheduling algorithm. If the average waiting time of the processes is 1 millisecond, then the value of Z is __________.",
+            "image": "../questionbank/os1.jpg",
+            "type": "numerical",
+            "answer": 2,
+            "marks": 2
+        },
+        {
+            "question": "Consider the set of processes with arrival time (in milliseconds). CPU burst time (in milliseconds), and priority (0 is the highest priority) shown below. None of the processes have I/O burst time.The average waiting time (in milliseconds) of all the processes using preemptive priority scheduling algorithm is __________",
+            "image": "../questionbank/os2.jpg",
+            "type": "numerical",
+            "answer": 29,
+            "marks": 2
+        },
+        {
+            "question": "Which of the following algorithms defines time quantum?",
+            "options": ["shortest job scheduling algorithm", "round robin scheduling algorithm", "priority scheduling algorithm", "multilevel queue scheduling algorithm"],
+            "answer": "round robin scheduling algorithm",
+            "marks": 1
+        },
+        {
+            "question": "In which one of the following page replacement policies, Belady's anomaly may occur?",
+            "options": ["FIFO", "Optimal", "LRU", "MRU"],
+            "answer": "FIFO",
+            "marks": 1
+        },
+        {
+            "question": "For the real time operating system, which of the following is the most suitable scheduling scheme?",
+            "options": ["Round robin", "First come first serve", "Pre-emptive", "Random scheduling"],
+            "answer": "Pre-emptive",
+            "marks": 1
+        },
+        {
+            "question": "Which one of the following CIDR prefixes exactly represents the range of IP addresses 10.12.2.0 to 10.12.3.255?",
+            "options": ["10.12.2.0/23", "10.12.2.0/24", "10.12.0.0/22", "10.12.2.0/22"],
+            "answer": "10.12.2.0/23",
+            "marks": 1
+        },
+        {
+            "question": "Which of the following fields of an IP header is/are always modified by any router before it forwards the IP packet?",
+            "options": ["Source IP Address", "Protocol", "Time to Live (TTL)", "Header Checksum"],
+            "answer": ["Time to Live (TTL)", "Header Checksum"],
+            "marks": 1
+        },
+        {
+            "question": "Consider an Ethernet segment with a transmission speed of 10^8 bits/sec and a maximum segment length of 500 meters. If the speed of propagation of the signal in the medium is 2×10^8meters/sec, then the minimum frame size (in bits) required for collision detection is _________",
+            "type": "numerical",
+            "answer": 500,
+            "marks": 1
+        },
+        {
+            "question": "An organization requires a range of IP address to assign one to each of its 1500 computers. The organization has approached an Internet Service Provider (ISP) for this task. The ISP uses CIDR and serves the requests from the available IP address space 202.61.0.0/17. The ISP wants to assign an address space to the organization which will minimize the number of routing entries in the ISP?s router using route aggregation. Which of the following address spaces are potential candidates from which the ISP can allot any one of the organization?<br><br>I. 202.61.84.0/21<br>II. 202.61.104.0/21<br>III. 202.61.64.0/21<br>IV. 202.61.144.0/21",
+            "options": ["I and II only", "II and III only", "III and IV only", "all od the above"],
+            "answer": "I and II only",
+            "marks": 2
+        },
+        {
+            "question": "Consider a simple communication system where multiple nodes are connected by a shared broadcast medium (like Ethernet or wireless). The nodes in the system use the following carrier-sense based medium access protocol. A node that receives a packet to transmit will carrier-sense the medium for 5 units of time. If the node does not detect any other transmission in this duration, it starts transmitting its packet in the next time unit. If the node detects another transmission, it waits until this other transmission finishes, and then begins to carrier-sense for 5 time units again. Once they start to transmit, nodes do not perform any collision detection and continue transmission even if a collision occurs. All transmissions last for 20 units of time. Assume that the transmission signal travels at the speed of 10 meters per unit time in the medium.Assume that the system has two nodes P and Q, located at a distance d meters from each other. P starts transmitting a packet at time t=0 after successfully completing its carrier-sense phase. Node Q has a packet to transmit at time t=0 and begins to carrier-sense the medium.The maximum distance d (in meters, rounded to the closest integer) that allows Q to successfully avoid a collision between its proposed transmission and P's ongoing transmission is _____.",
+            "type": "numerical",
+            "answer": 50,
+            "marks": 2
+        },
+        {
+            "question": "Consider an IP packet with a length of 4,500 bytes that includes a 20-byte IPv4 header and a 40-byte TCP header. The packet is forwarded to an IPv4 router that supports a Maximum Transmission Unit (MTU) of 600 bytes. Assume that the length of the IP header in all the outgoing fragments of this packet is 20 bytes. Assume that the fragmentation offset value stored in the first fragment is 0.The fragmentation offset value stored in the third fragment is _______.",
+            "type": "numerical",
+            "answer": 144,
+            "marks": 2
+        },
+        {
+            "question": "Which of the following protocol is used for transferring electronic mail messages from one machine to another?",
+            "options": ["TELNET", "FTP", "SNMP", "SMTP"],
+            "answer": "SMTP",
+            "marks": 1
+        },
+        {
+            "question": "The values of parameters for the Stop-and-Wait ARQ protocol are as given below:<br><br>Bit rate of the transmission channel = 1Mbps<br>Propagation delay from sender to receiver = 0.75 ms<br>Time to process a frame = 0.25ms<br>Number of bytes in the information frame =1980<br>Number of bytes in the acknowledge frame = 20<br>Number of overhead bytes in the information frame = 20<br><br>Assume that there are no transmission errors. Then the transmission efficiency ( expressed in percentage) of the Stop-and - Wait ARQ protocol for the above parameters is _________( roundoff the integer)",
+            "type": "numerical",
+            "answer": 87,
+            "marks": 2
+        },
+        {
+            "question": "A computer network uses polynomials over GF(2) for error checking with 8 bits as information bits and uses x^3 + x + 1 as the generator polynomial to generate the check bits. In this network, the message 01011011 is transmitted as",
+            "options": ["01011011010", "01011011011", "01011011101", "01011011100"],
+            "answer": "01011011101",
+            "marks": 1
+        },
+        {
+            "question": "Which one of the following is used to represent the supporting many-one relationships of a weak entity set in an entity-relationship diagram?",
+            "options": ["Diamonds with double/bold border", "Rectangles with double/bold border", "Ovals with double/bold border", "Ovals that contain underlined identifiers"],
+            "answer": "Diamonds with double/bold border",
+            "marks": 1
+        },
+        {
+            "question": "Consider an Entity-Relationship (ER) model in which entity sets E1 and E2 are connected by an m : n relationship R12.<br> E1 and E3 are connected by a 1 : n (1 on the side of E1 and n on the side of E3) relationship R13.E1 has two single-valued attributes a11 and a12 of which a11 is the key attribute. E2 has two single-valued attributes a21 and a22 of which a21 is the key attribute. E3 has two single-valued attributes a31 and a32 of which a31 is the key attribute. The relationships do not have any attributes.<br>If a relational model is derived from the above ER model, then the minimum number of relations that would be generated if all the relations are in 3NF is _______.",
+            "type": "numerical",
+            "answer": 4,
+            "marks": 2
+        },
+        {
+            "question": "Consider the following ER diagram. Which of the following is a correct attribute set for one of the tables for the minimum number of tables needed to represent M, N, P, R1, R2?",
+            "image": "../questionbank/dbms1.jpg",
+            "options": ["{M1,M2,M3,P1}", "{M1,P1,N1,N2}", "{M1,P1,N1}", "{M1,P1}"],
+            "answer": "{M1,M2,M3,P1}",
+            "marks": 2
+        },
+        {
+            "question": "Consider the following ER diagram. The minimum number of tables needed to represent M, N, P, R1, R2 is",
+            "image": "../questionbank/dbms2.jpg",
+            "options": ["2", "3", "4", "5"],
+            "answer": "3",
+            "marks": 1
+        },
+        {
+            "question": "Consider the entities 'hotel room', and 'person' with a many to many relationship 'lodging' as shown below. If we wish to store information about the rent payment to be made by person (s) occupying different hotel rooms, then this information should appear as an attribute of ",
+            "image": "../questionbank/dbms3.jpg",
+            "options": ["Person", "Lodging", "Hotel Room", "None of these"],
+            "answer": "Lodging",
+            "marks": 1
+        },
+        {
+            "question": "The chromatic number of a graph is the minimum number of colours used in a proper colouring of the graph. The chromatic number of the following graph is _______",
+            "image": "../questionbank/dm.webp",
+            "type": "numerical",
+            "answer": 2,
+            "marks": 1
+        },
+        {
+            "question": "When six unbiased dice are rolled simultaneously, the probability of getting all distinct numbers (i.e., 1, 2, 3, 4, 5, and 6) is",
+            "options": ["1/324", "11/324", "5/324", "7/324"],
+            "answer": "5/324",
+            "marks": 1
+        },
+        {
+            "question": "Let A be the adjacency matrix of a simple undirected graph G. Suppose A is its own inverse. Which one of the following statements is always TRUE?",
+            "options": ["G is a cycle", "G is a perfect matching", "G is a complete graph", "There is no such graph G"],
+            "answer": "G is a perfect matching",
+            "marks": 2
+        },
+        {
+            "question": "Let p and q be the following propositions:<br><br>p : Fail grade can be given.<br>q : Student scores more than 50% marks.<br><br>Consider the statement: \"Fail grade cannot be given when student scores more than 50% marks.\"<br>Which one of the following is the CORRECT representation of the above statement in propositional logic?",
+            "options": ["q → ¬p", "p → q", "q → p", "¬p → q"],
+            "answer": "q → ¬p",
+            "marks": 1
+        },
+        {
+            "question": "A bag contains 10 red balls and 15 blue balls. Two balls are drawn randomly without replacement. Given that the first ball drawn is red, the probability (rounded off to 3 decimal places) that both balls drawn are red is ____",
+            "type": "numerical",
+            "answer": 0.37,
+            "marks": 1
+        },
+        {
+            "question": "The number of edges present in the forest generated by the DFS traversal of an undirected graph G with 100 vertices is 40 . The number of connected components in G is ____",
+            "type": "numerical",
+            "answer": 60,
+            "marks": 1
+        },
+        {
+            "question": "The chromatic number of a graph is the minimum number of colours used in a proper colouring of the graph. Let G be any graph with n vertices and chromatic number k. Which of the following statements is/are always TRUE?",
+            "options": ["G contains a complete subgraph with k vertices", "G contains an independent set of size at least n/k", "G ontains at least k(k−1)/2 edges", "G contains a vertex of degree at least k"],
+            "answer": ["G contains an independent set of size at least n/k", "G ontains at least k(k−1)/2 edges"],
+            "marks": 2
+        },
+        {
+            "question": "Let f:R→R  be a function such that f(x)=max{x,x^3}, x ∈ R, where R is the set of all real numbers. The set of all points where R  is NOT differentiable is",
+            "options": ["-1,1,2", "-2,-1,1", "0,1", "-1,0,1"],
+            "answer": "-1,0,1",
+            "marks": 2
+        },
+        {
+            "question": "select one or more correct options given below :",
+            "image": "../questionbank/dm3.png",
+            "options": ["A", "B", "C", "D"],
+            "answer": ["A", "B", "C"],
+            "marks": 2
+        },
+        {
+            "question": "Consider the following C program. The output of the above program is ___________. (Answer in integer)",
+            "image": "../questionbank/cs2.png",
+            "type": "numerical",
+            "answer": 111,
+            "marks": 1
+        },
+        {
+            "question": "The output of the given C code segment is ________. (Answer in integer)",
+            "image": "../questionbank/cs3.png",
+            "type": "numerical",
+            "answer": 21,
+            "marks": 1
+        },
+        {
+            "question": "Which ONE of the following will be the output of the program?",
+            "image": "../questionbank/cs4.png",
+            "options": ["@#Hello World!", "Hello World!", "ello World!", "Hello World!d!"],
+            "answer": "Hello World!d!",
+            "marks": 1
+        },
+        {
+            "question": "Consider the following C program. The output of the above program is ___________. (Answer in integer)",
+            "image": "../questionbank/cs5.png",
+            "type": "numerical",
+            "answer": 46,
+            "marks": 1
+        },
+        {
+            "question": "Consider the following C program. Assume that the input to the program from the command line is 1234 followed by a newline character. Which one of the following statements is CORRECT?",
+            "image": "../questionbank/cs6.png",
+            "options": ["The program will not terminate", "The program will terminate with no output", "The program will terminate with 4321 as output", "The program will terminate with 1234 as output"],
+            "answer": "The program will terminate with 4321 as output",
+            "marks": 2
+        },
+        {
+            "question": "Let f(x)=x^3+15x^2−33x−36 be a real-valued function.Which of the following statements is/are TRUE?",
+            "options": ["f(x) does not have a local maximum.", "f(x)  has a local maximum.", "f(x) does not have a local minimum.", "f(x)  has a local minimum."],
+            "answer": ["f(x)  has a local maximum.", "f(x)  has a local minimum."],
+            "marks": 2
+        },
+        {
+            "question": "Let det(A) and det(B) denote the determinants of the matrices A and B, respectively.Which one of the options given below is TRUE?",
+            "image": "../questionbank/em1.png",
+            "options": ["det(A) = det(B)", "det(B) = - det(A)", "det(A)=0", "det(AB) = det(A) + det(B)"],
+            "answer": "det(B) = - det(A)",
+            "marks": 1
+        },
+        {
+            "question": "Suppose that P is a 4x5 matrix such that every solution of the equation Px=0 is a scalar multiple of [2, 5, 4, 3, 1]T. The rank of P is _______",
+            "type": "numerical",
+            "answer": "4",
+            "marks": 2
+        },
+        {
+            "question": "Consider the following expression. The value of \\(\\lim_{x \\to -3} \\frac{\\sqrt{2x+22}-4}{x+3}\\) (rounded to 2 decimal places) is:",
+            "image": "../questionbank/Screenshot 2025-03-28 092001.png",
+            "type": "numerical",
+            "answer": "0.25",
+            "marks": 1
+        },
+        {
+            "question": "Consider a 512 GB hard disk with 32 storage surfaces. There are 4096 sectors per track and each sector holds 1024 bytes of data. The number of cylinders in the hard disk is ____",
+            "type": "numerical",
+            "answer": 4096,
+            "marks": 2
+        },
+        {
+            "question": "Given a computing system with two levels of cache (L1 and L2) and a main memory. The first level (L1) cache access time is 1 nanosecond (ns) and the \"hit rate\" for L1 cache is 90% while the processor is accessing the data from L1 cache. Whereas, for the second level (L2) cache, the \"hit rate\" is 80% and the \"miss penalty\" for transferring data from L2 cache to L1 cache is 10 ns. The \"miss penalty\" for the data to be transferred from main memory to L2 cache is 100 ns.<br>Then the average memory access time in this system in nanoseconds is ___________ . (rounded off to one decimal place)",
+            "type": "numerical",
+            "answer": 4,
+            "marks": 2
+        },
+        {
+            "question": "For a direct-mapped cache, 4 bits are used for the tag field and 12 bits are used to index into a cache block. The size of each cache block is one byte. Assume that there is no other information stored for each cache block.Which ONE of the following is the CORRECT option for the sizes of the main memory and the cache memory in this system (byte addressable), respectively?",
+            "options": ["64 KB and 4 KB", "128 KB and 16 KB", "64 KB and 8 KB", "128 KB and 6 KB"],
+            "answer": "64 KB and 4 KB",
+            "marks": 1
+        },
+        {
+            "question": "Which of the following is/are part of an Instruction Set Architecture of a processor?",
+            "options": ["The size of the cache memory", "The clock frequency of the processor", "The number of cache memory levels", "The total number of registers"],
+            "answer": "The total number of registers",
+            "marks": 1
+        },
+        {
+            "question": "A 4 kilobyte (KB) byte-addressable memory is realized using four 1 KB memory blocks. Two input address lines (IA4 and IA3) are connected to the chip select (CS) port of these memory blocks through a decoder as shown in the figure. The remaining ten input address lines from IA11-IA0 are connected to the address port of these blocks. The chip select (CS) is active high.The input memory addresses (IA11-IA0), in decimal, for the starting locations (Addr=0) of each block (indicated as X1, X2, X3, X4 in the figure) are among the options given below. Which one of the following options is CORRECT?",
+            "image": "../questionbank/coa2.png",
+            "options": ["(0, 1, 2, 3)", "(0, 1024, 2048, 3072)", "(0, 8, 16, 24)", "(0, 0, 0, 0)"],
+            "answer": "(0, 8, 16, 24)",
+            "marks": 2
+        },
+        {
+            "question": "Consider the given C-code and its corresponding assembly code, with a few operands U1-U4 being unknown. Some useful information as well as the semantics of each unique assembly instruction is annotated as inline comments in the code. The memory is byte-addressable.Which one of the following options is a CORRECT replacement for operands in the position (U1, U2, U3, U4) in the above assembly code?",
+            "image": "../questionbank/coa3.png",
+            "options": [
+                "(8, 4, 1, Lo2)",
+                "(3, 4, 4, Lo1)",
+                "(8, 1, 1, Lo2)",
+                "(3, 1, 1, Lo1)"
+            ],
+            "answer": "(3, 4, 4, Lo1)",
+            "marks": 2
+        },
+        {
+            "question": "A 3-stage pipelined processor having a delay of 10 ns (nanoseconds), 20 ns, and 14 ns, for the first, second, and the third stages, respectively. Assume that there is no other delay and the processor does not suffer from any pipeline hazards. Also assume that one instruction is fetched every cycle.The total execution time for executing 100 instructions on this processor is _______ ns",
+            "type": "numerical",
+            "answer": 2040,
+            "marks": 2
+        },
+        {
+            "question": "Consider a digital display system (DDS) shown in the figure that displays the contents of register X. A 16-bit code word is used to load a word in X, either from S or from R. S is a 1024-word memory segment and R is a 32-word register file. Based on the value of mode bit M, T selects an input word to load in X. P and Q interface with the corresponding bits in the code word to choose the addressed word. Which one of the following represents the functionality of P, Q, and T?",
+            "image": "../questionbank/coa4.png",
+            "options": [
+                "P is 10:1 multiplexer;<br>Q is 5:1 multiplexer;<br>T is 2:1 multiplexer",
+                "P is 10:2^10 decoder;<br> Q is 5:2^5 decoder;<br>T is 2:1 encoder",
+                "P is 10:2^10 decoder; Q is 5:2^5  decoder; T is 2:1 multiplexer",
+                "P is 1:10 de-multiplexer;<br> Q is 1:5 de-multiplexer;<br> T is 2:1 multiplexer"
+            ],
+            "answer": "P is 10:2^10 decoder; Q is 5:2^5  decoder; T is 2:1 multiplexer",
+            "marks": 2
+        },
+        {
+            "question": "Consider a 5-stage pipelined processor with Instruction Fetch (IF), Instruction Decode (ID), Execute (EX), Memory Access (MEM), and Register Writeback (WB) stages. Which of the following statements about forwarding is/are CORRECT?",
+            "options": [
+                "In a pipelined execution, forwarding means the result from a source stage of an earlier instruction is passed on to the destination stage of a later instruction",
+                "In forwarding, data from the output of the MEM stage can be passed on to the input of the EX stage of the next instruction",
+                "Forwarding cannot prevent all pipeline stalls",
+                "Forwarding does not require any extra hardware to retrieve the data from the pipeline stages"
+            ],
+            "answer": [
+                "In a pipelined execution, forwarding means the result from a source stage of an earlier instruction is passed on to the destination stage of a later instruction",
+                "In forwarding, data from the output of the MEM stage can be passed on to the input of the EX stage of the next instruction",
+                "Forwarding cannot prevent all pipeline stalls"
+            ],
+            "marks": 2
+        },
+        {
+            "question": "Let G be a connected undirected weighted graph. Consider the following two statements.<br><br>S1: There exists a minimum weight edge in G which is present in every minimum spanning tree of G.<br>S2: If every edge in G has distinct weight, then G has a unique minimum spanning tree.<br><br>Which one of the following options is correct?",
+            "options": ["Both S1 and S2 are true", "S1 is true and S2 is false", "S1 is false and S2 is true", "Both S1 and S2 are false"],
+            "answer": "S1 is false and S2 is true",
+            "marks": 1
+        },
+        {
+            "question": "Consider the following undirected graph with edge weights as shown.The number of minimum-weight spanning trees of the graph is __________",
+            "image": "../questionbank/daa2.png",
+            "type": "numerical",
+            "answer": 3,
+            "marks": 2
+        },
+        {
+            "question": "Consider the following array.Which algorithm out of the following options uses the least number of comparisons (among the array elements) to sort the above array in ascending order?",
+            "image": "../questionbank/daa3.png",
+            "options": ["Selection sort", "Mergesort", "Insertion sort", "Quicksort using the last element as pivot"],
+            "answer": "Insertion sort",
+            "marks": 1
+        },
+        {
+            "question": "Which one of the following options arranges the functions in the increasing order of asymptotic growth rate?",
+            "image": "../questionbank/daa4.png",
+            "options": ["f3,f2,f1", "f2,f1,f3", "f1,f2,f3", "f2,f3,f1"],
+            "answer": "f2,f3,f1",
+            "marks": 1
+        },
+        {
+            "question": "Of the following sort algorithms, which has execution time that is least dependant on initial ordering of the input?",
+            "options": ["Insertion sort", "Quick sort", "Merge sort", "Selection sort"],
+            "answer": "Merge sort",
+            "marks": 1
+        },
+        {
+            "question": "What is the complexity of the following code?",
+            "image": "../questionbank/daa5.png",
+            "options": ["O(n^2)", "O(n*logn)", "O(n)", "O(n*log(logn)))"],
+            "answer": "O(n)",
+            "marks": 1
+        },
+        {
+            "question": "Huffman tree is constructed for the following data :{A,B,C,D,E} with frequency {0.17, 0.11, 0.24, 0.33 and 0.15} respectively. 100 00 01101 is decoded as",
+            "options": ["BACE", "CADE", "BAD", "CADD"],
+            "answer": "BACE",
+            "marks": 1
+        },
+        {
+            "question": "In the 4 x 4 array shown above, each cell of the first three rows has either a cross (X) or a number. The number in a cell represents the count of the immediate neighboring cells (left, right, top, bottom, diagonals) NOT having a cross (X). Given that the last row has no crosses (X), the sum of the four numbers to be filled in the last row is",
+            "image": "../questionbank/ap1.png",
+            "options": ["10", "11", "12", "9"],
+            "answer": "11",
+            "marks": 2
+        },
+        {
+            "question": "A cube is to be cut into 8 pieces of equal size and shape. Here, each cut should be straight and it should not stop till it reaches the other end of the cube. The minimum number of such cuts required is",
+            "options": ["3", "4", "7", "8"],
+            "answer": "3",
+            "marks": 1
+        },
+        {
+            "question": "The pie charts depict the shares of various power generation technologies in the total electricity generation of a country for the years 2007 and 2023. The renewable sources of electricity generation consist of Hydro, Solar and Wind. Assuming that the total electricity generated remains the same from 2007 to 2023, what is the percentage increase in the share of the renewable sources of electricity generation over this period?",
+            "image": "../questionbank/ap2.png",
+            "options": ["25%", "50%", "77.50%", "62.50%"],
+            "answer": "62.50%",
+            "marks": 2
+        },
+        {
+            "question": "A person sold two different items at the same price. He made 10% profit in one item, and 10% loss in the other item. In selling these two items, the person made a total of",
+            "options": ["2% profit", "1% profit", "1% loss", "2% loss"],
+            "answer": "1% loss",
+            "marks": 1
+        },
+        {
+            "question": "Sequence the following sentences in a coherent passage.<br><br>P: This fortuitous geological event generated a colossal amount of energy and heat that resulted in the rocks rising to an average height of 4 km across the contact zone.<br>Q: Thus, the geophysicists tend to think of the Himalayas as an active geological event rather than as a static geological feature.<br>R: The natural process of the cooling of this massive edifice absorbed large quantities of atmospheric carbon dioxide, altering the earth?s atmosphere and making it better suited for life.<br>S: Many millennia ago, a breakaway chunk of bedrock from the Antarctic Plate collided with the massive Eurasian Plate.",
+            "options": ["SPRQ", "SRPQ", "QSPR", "QPSR"],
+            "answer": "SPRQ",
+            "marks": 2
+        },
+        {
+            "question": "In the sequence 6, 9, 14, x, 30, 41, a possible value of x is",
+            "options": ["25", "21", "18", "20"],
+            "answer": "21",
+            "marks": 1
+        },
+        {
+            "question": "In the sequence 6, 9, 14, x, 30, 41, a possible value of x is",
+            "options": ["1800", "3500", "1600", "1500"],
+            "answer": "1800",
+            "marks": 1
+        },
+        {
+            "question": "Two wizards try to create a spell using all the four elements, water, air, fire, and earth. For this, they decide to mix all these elements in all possible orders. They also decide to work independently. After trying all possible combination of elements, they conclude that the spell does not work. How many attempts does each wizard make before coming to this conclusion, independently?",
+            "options": ["24", "48", "16", "12"],
+            "answer": "24",
+            "marks": 1
+        },
+        {
+            "question": "If '→' denotes increasing order of intensity, then the meaning of the words [walk → jog → sprint] is analogous to [bothered → ________ → daunted].<br>Which one of the given options is appropriate to fill the blank?",
+            "options": ["phased", "phrased", "fazed", "fused"],
+            "answer": "fazed",
+            "marks": 1
+        },
+        {
+            "question": "The least number of squares to be added in the figure to make AB a line of symmetry is",
+            "image": "../questionbank/ap3.png",
+            "options": ["6", "4", "5", "7"],
+            "answer": "6",
+            "marks": 2
+        },
+        {
+            "question": "A rectangular paper of 20cm x 8cm is folded 3 times. Each fold is made along the line of symmetry, which is perpendicular to its long edge. The perimeter of the final folded sheet (in cm) is",
+            "options": ["21", "20", "24", "18"],
+            "answer": "18",
+            "marks": 2
+        },
+        {
+            "question": "The pie chart presents the percentage contribution of different macronutrients to a typical 2,000 kcal diet of a person. The total fat (all three types), in grams, this person consumes is",
+            "image": "../questionbank/ap4.png",
+            "options": ["3600", "100", "78.7", "44.4"],
+            "answer": "100",
+            "marks": 1
+        },
+        {
+            "question": "A rectangular paper sheet of dimensions 54cm x 4cm is taken. The two longer edges of the sheet are joined together to create a cylindrical tube. A cube whose surface area is equal to the area of the sheet is also taken.<br>Then, the ratio of the volume of the cylindrical tube to the volume of the cube is",
+            "options": ["1/π", "2/π", "3/π", "4/π"],
+            "answer": "1/π",
+            "marks": 2
+        },
+        {
+            "question": "In the given text, the blanks are numbered (i)-(iv).<br> Select the best match for all the blanks. Steve was advised to keep his head ___(i)___ before heading __(ii)__ to bat; for, while he had a head __(iii)__ batting, he could only do so with a cool head s __(iv)__ his shoulders",
+            "options": ["(i) on (ii) down (iii) for (iv) on", "(i) down (ii) out (iii) for (iv) on", "(i) on (ii) out (iii) on (iv) for", "(i) down (ii) down (iii) on (iv) for"],
+            "answer": "(i) down (ii) out (iii) for (iv) on",
+            "marks": 1
+        },
+        {
+            "question": "The number of coins of Rs. 1, Rs. 5, and Rs. 10 denominations that a person has are in the ratio 5:3:13. Of the total amount, the percentage of money in Rs. 5 coins is",
+            "options": ["30%", "14.28%", "10%", "21%"],
+            "answer": "10%",
+            "marks": 1
+        },
+        {
+            "question": "Consider the following sample of numbers:<br><br>9, 18, 11, 14, 15, 17, 10, 69, 11, 13<br><br>The median of the sample is",
+            "options": ["13.5", "14", "11", "18.7"],
+            "answer": "13.5",
+            "marks": 1
+        },
+        {
+            "question": "If two distinct non-zero real variables x and y are such that (x+y) is proportional to (x−y) then the value of x/y",
+            "options": ["depends on xy", "depends only on x and not on y", "depends only on y and not on z", "is a constant"],
+            "answer": "is a constant",
+            "marks": 2
+        },
+        {
+            "question": "If '→' denotes increasing order of intensity, then the meaning of the words [dry → arid → parched] is analogous to [diet → fast → _____].<br>Which one of the given options is appropriate to fill the blank?",
+            "options": ["deny", "feast", "reject", "starve"],
+            "answer": "starve",
+            "marks": 1
+        },
+        {
+            "question": "Which one of the options best describes the transformation of the 2-dimensional figure P to Q, and then to R, as shown?",
+            "image": "../questionbank/ap5.png",
+            "options": ["Operation 1: A counter clockwise rotation by 180 degree about an axis perpendicular to the plane of the figure<br>Operation 2: A reflection along a vertical line", "Operation 1: A clockwise rotation by 90 degree about an axis perpendicular to the plane of the figure<br>Operation 2: A reflection along a vertical line", "Operation 1: A counter clockwise rotation by 90 degree about an axis perpendicular to the plane of the figure<br>Operation 2: A reflection along a horizontal line", "Operation 1: A clockwise rotation by 90 degree  about an axis perpendicular to the plane of the figure<br>Operation 2: A reflection along a horizontal line"],
+            "answer": "Operation 1: A clockwise rotation by 90 degree  about an axis perpendicular to the plane of the figure<br>Operation 2: A reflection along a horizontal line",
+            "marks": 2
+        },
+        {
+            "question": "Which one of the following sentence sequences creates a coherent narrative?<br><br>(i) Once on the terrace, on her way to her small room in the corner, she notices the man right away.<br>(ii) She begins to pant by the time she has climbed all the stairs.<br>(iii) Mina has bought vegetables and rice at the market, so her bags are heavy.<br>(iv) He was leaning against the parapet, watching the traffic below.",
+            "options": ["(i), (ii), (iv), (iii)", "(ii), (iii), (i), (iv)", "(iv), (ii), (i), (iii)", "(iii), (ii), (i), (iv)"],
+            "answer": "(iii), (ii), (i), (iv)",
+            "marks": 1
+        },
+        {
+            "question": "The country of Zombieland is in distress since more than 75% of its working population is suffering from serious health issues. Studies conducted by competent health experts concluded that a complete lack of physical exercise among its working population was one of the leading causes of their health issues. As one of the measures to address the problem, the Government of Zombieland has decided to provide monetary incentives to those who ride bicycles to work.<br>Based only on the information provided above, which one of the following statements can be logically inferred with certainty?",
+            "options": ["The health experts suggested to the Government of Zombieland to declare riding bicycles as mandatory.", "The Government of Zombieland believes that riding bicycles is a form of physical exercise.", "Riding bicycles will ensure that all of the working population of Zombieland is free of health issues.", "All the working population of Zombieland will henceforth ride bicycles to work."],
+            "answer": "The Government of Zombieland believes that riding bicycles is a form of physical exercise.",
+            "marks": 1
+        },
+        {
+            "question": "Looking at the surface of a smooth 3-dimensional object from the outside, which one of the following options is TRUE?",
+            "options": ["The object can have edges, but no corners.", "The surface of the object may be concave in some places and convex in other places.", "The surface of the object must be convex everywhere.", "The surface of the object must be concave everywhere."],
+            "answer": "The surface of the object may be concave in some places and convex in other places.",
+            "marks": 1
+        },
+        {
+            "question": "The object can have edges, but no corners.<br>Given this information, which one of the following statements can be inferred with certainty?",
+            "options": ["Less than half of the pregnant women received medical care at most once from a doctor.", "More than half of the pregnant women received medical care at most once from a doctor.", "Less than half of the pregnant women received medical care at least once from a doctor.", "More than half of the pregnant women received medical care at least once from a doctor."],
+            "answer": "More than half of the pregnant women received medical care at least once from a doctor.",
+            "marks": 1
+        },
+        {
+            "question": "We reached the station late, and _______ missed the train.",
+            "options": ["nearly", "near", "utterly", "mostly"],
+            "answer": "nearly",
+            "marks": 1
+        }
+    ]
+}

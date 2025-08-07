@@ -1,0 +1,205 @@
+
+
+{
+    "questions": [
+        {"question":"Let f(x)=x^3+15x^2−33x−36 be a real-valued function.Which of the following statements is/are TRUE?",
+        "options":["f(x) does not have a local maximum.","f(x)  has a local maximum.","f(x) does not have a local minimum.","f(x)  has a local minimum."],
+        "answer":["f(x)  has a local maximum.","f(x)  has a local minimum."],
+        "marks":2
+        },
+        {
+            "question":"Let det(A) and det(B) denote the determinants of the matrices A and B, respectively.Which one of the options given below is TRUE?",
+            "image":"./questionbank/em1.png",
+            "options":["det(A) = det(B)","det(B) = - det(A)","det(A)=0","det(AB) = det(A) + det(B)"],
+            "answer":"det(B) = - det(A)",
+            "marks":2
+        },
+        {
+            "question":"Suppose that P is a 4x5 matrix such that every solution of the equation Px=0 is a scalar multiple of [2, 5, 4, 3, 1]T. The rank of P is _______",
+            "type":"numerical",
+            "answer":4,
+            "marks":2
+
+        },
+      {
+        "question": "The rank of the matrix [[1, 2, 3], [4, 5, 6], [7, 8, 9]] is:",
+        "options": ["0", "1", "2", "3"],
+        "answer": "2",
+        "marks": 1
+      },
+      {
+        "question": "The solution of the differential equation dy/dx = y/x with y(1) = 1 is:",
+        "options": ["y = x", "y = x^2", "y = e^x", "y = lnx"],
+        "answer": "y = x",
+        "marks": 1
+      },
+      {
+        "question": "The value of ∫(0 to π/2) sin^3x dx is:",
+        "options": ["1/3", "2/3", "4/3", "π/2"],
+        "answer": "2/3",
+        "marks": 2
+      },
+      {
+        "question": "The Laplace transform of e^(-2t)sin(3t) is:",
+        "options": ["3/((s+2)^2+9)", "s/((s+2)^2+9)", "3/(s^2+9)", "s/(s^2+9)"],
+        "answer": "3/((s+2)^2+9)",
+        "marks": 2
+      },
+      {
+        "question": "The directional derivative of f(x,y) = x^2y at (1,2) in the direction of (3,4) is:",
+        "options": ["18/5", "22/5", "26/5", "32/5"],
+        "answer": "22/5",
+        "marks": 2
+      },
+      {
+        "question": "The eigenvalues of the matrix [[2, 1], [1, 2]] are:",
+        "options": ["1 and 2", "1 and 3", "2 and 3", "0 and 4"],
+        "answer": "1 and 3",
+        "marks": 1
+      },
+      {
+        "question": "The solution to the system of equations: x + y = 2, 2x + 2y = 4 is:",
+        "options": ["Unique solution", "No solution", "Infinite solutions", "None of these"],
+        "answer": "Infinite solutions",
+        "marks": 1
+      },
+      {
+        "question": "The value of ∇×(∇φ) where φ is a scalar function is:",
+        "options": ["0", "1", "∇φ", "Undefined"],
+        "answer": "0",
+        "marks": 1
+      },
+      {
+        "question": "The Fourier series of an odd function contains only:",
+        "options": ["Sine terms", "Cosine terms", "Both sine and cosine terms", "Constant term"],
+        "answer": "Sine terms",
+        "marks": 1
+      },
+      {
+        "question": "The residue of f(z) = 1/(z^2+1) at z = i is:",
+        "options": ["1/2i", "-1/2i", "1/2", "-1/2"],
+        "answer": "1/2i",
+        "marks": 2
+      },
+      {
+        "question": "The probability density function of a standard normal distribution is:",
+        "options": ["(1/√2π)e^(-x^2/2)", "(1/√2π)e^x^2/2", "(1/2π)e^(-x^2/2)", "(1/2π)e^x^2/2"],
+        "answer": "(1/√2π)e^(-x^2/2)",
+        "marks": 1
+      },
+      {
+        "question": "The general solution of d^2y/dx^2 + 4y = 0 is:",
+        "options": ["Ae^(2x) + Be^(-2x)", "Acos2x + Bsin2x", "Ae^(2ix) + Be^(-2ix)", "A + Be^(-4x)"],
+        "answer": "Acos2x + Bsin2x",
+        "marks": 1
+      },
+      {
+        "question": "The value of ∮(z^2 + 1)/(z^2 - 1) dz around |z| = 2 is:",
+        "options": ["0", "2πi", "4πi", "8πi"],
+        "answer": "4πi",
+        "marks": 2
+      },
+      {
+        "question": "The partial derivative ∂/∂x of f(x,y) = x^2y + sin(xy) is:",
+        "options": ["2xy + ycos(xy)", "x^2 + xcos(xy)", "2xy + xcos(xy)", "2xy + cos(xy)"],
+        "answer": "2xy + ycos(xy)",
+        "marks": 1
+      },
+      {
+        "question": "The probability of getting at least one head in two tosses of a fair coin is:",
+        "options": ["1/4", "1/2", "3/4", "1"],
+        "answer": "3/4",
+        "marks": 1
+      },
+      {
+        "question": "The inverse Laplace transform of 1/(s^2 + 4) is:",
+        "options": ["sin(2t)", "(1/2)sin(2t)", "cos(2t)", "(1/2)cos(2t)"],
+        "answer": "(1/2)sin(2t)",
+        "marks": 1
+      },
+      {
+        "question": "The area enclosed by the curve r = 2cosθ in polar coordinates is:",
+        "options": ["π", "2π", "π/2", "4π"],
+        "answer": "π",
+        "marks": 2
+      },
+      {
+        "question": "The solution of dy/dx = x/y with y(0) = 1 is:",
+        "options": ["y = √(x^2 + 1)", "y = x^2 + 1", "y = e^(x^2/2)", "y = 1 + x^2/2"],
+        "answer": "y = √(x^2 + 1)",
+        "marks": 1
+      },
+      {
+        "question": "The value of ∫∫(x^2 + y^2) dxdy over the region x^2 + y^2 ≤ 1 is:",
+        "options": ["π/2", "π", "3π/2", "2π"],
+        "answer": "π/2",
+        "marks": 2
+      },
+      {
+        "question": "The mean of the first n natural numbers is:",
+        "options": ["n/2", "(n+1)/2", "n(n+1)/2", "n^2"],
+        "answer": "(n+1)/2",
+        "marks": 1
+      },
+      {
+        "question": "The Wronskian of e^x and e^(-x) is:",
+        "options": ["0", "1", "-2", "2"],
+        "answer": "-2",
+        "marks": 1
+      },
+      {
+        "question": "The gradient of the scalar field φ = x^2 + y^2 + z^2 at (1,1,1) is:",
+        "options": ["(1,1,1)", "(2,2,2)", "(1,2,3)", "(0,0,0)"],
+        "answer": "(2,2,2)",
+        "marks": 1
+      },
+      {
+        "question": "The probability distribution where mean and variance are equal is:",
+        "options": ["Binomial", "Poisson", "Normal", "Exponential"],
+        "answer": "Poisson",
+        "marks": 1
+      },
+      {
+        "question": "The value of lim(x→0) (sinx)/x is:",
+        "options": ["0", "1", "∞", "Undefined"],
+        "answer": "1",
+        "marks": 1
+      },
+      {
+        "question": "The order of convergence of Newton-Raphson method is:",
+        "options": ["Linear", "Quadratic", "Cubic", "Exponential"],
+        "answer": "Quadratic",
+        "marks": 1
+      },
+      {
+        "question": "The Fourier transform of a Gaussian function is:",
+        "options": ["Another Gaussian", "Delta function", "Step function", "Sinc function"],
+        "answer": "Another Gaussian",
+        "marks": 1
+      },
+      {
+        "question": "The value of ∫(0 to ∞) e^(-x^2) dx is:",
+        "options": ["√π", "√π/2", "π", "1"],
+        "answer": "√π/2",
+        "marks": 2
+      },
+      {
+        "question": "The divergence of the vector field F = (xy, yz, zx) is:",
+        "options": ["x + y + z", "0", "1", "xy + yz + zx"],
+        "answer": "x + y + z",
+        "marks": 1
+      },
+      {
+        "question": "The probability that a randomly selected number from 1 to 100 is divisible by 3 or 5 is:",
+        "options": ["0.47", "0.53", "0.6", "0.67"],
+        "answer": "0.47",
+        "marks": 1
+      },
+      {
+        "question": "The solution to dy/dx + y = e^(-x) with y(0) = 1 is:",
+        "options": ["y = (x+1)e^(-x)", "y = e^(-x)", "y = e^x", "y = (1-x)e^(-x)"],
+        "answer": "y = (x+1)e^(-x)",
+        "marks": 2
+      }
+    ]
+  }
