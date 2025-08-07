@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile - GATE CSE 2026</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="../test.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./profile.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>GATE EXPRESS</h2>
+        <a href="./dashboard.html">
+            <i class="fas fa-home"></i> Dashboard
+        </a>
+        <a href="#" class="active">
+            <i class="fas fa-user"></i> Profile
+        </a>
+        <a href="./progress.html">
+            <i class="fas fa-chart-line"></i> Progress
+        </a>
+        <a href="./leaderboard.html">
+            <i class="fas fa-trophy"></i> Leaderboard
+        </a>
+        <button class="logout-btn" id="logoutBtn">
+            <i class="fas fa-sign-out-alt"></i> Logout
+        </button>
+    </div>
+
+    <div class="main-content profile-content">
+        <div class="profile-header">
+            <h1>My Profile</h1>
+        </div>
+
+        <div class="profile-container">
+            <div class="profile-card">
+                <div class="profile-avatar">
+                    <img src="../profile.png" alt="Profile" id="profileImage">
+                    <label for="profileUpload" class="edit-avatar-btn">
+                        <i class="fas fa-camera"></i>
+                        <input type="file" id="profileUpload" accept="image/*" style="display: none;">
+                    </label>
+                    <progress id="uploadProgress" value="0" max="100" style="display: none; width: 100%; margin-top: 10px;"></progress>
+                </div>
+                
+                <div class="profile-info">
+                    <div class="name-edit">
+                        <h2 id="profileName">Loading...</h2>
+                        <button id="editNameBtn" class="edit-btn">
+                            <i class="fas fa-edit"></i>
+                        </button>
+                    </div>
+                    <p class="profile-email" id="profileEmail">Loading...</p>
+                    <p class="profile-joined">
+                        <i class="fas fa-calendar-alt"></i> 
+                        Member since <span id="profileJoined">Loading...</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="profile-sections">
+                <div class="profile-section">
+                    <h3><i class="fas fa-user-edit"></i> Profile Information</h3>
+                    <form id="profileForm" style="display: none;">
+                        <div class="form-group">
+                            <label for="editName">Full Name</label>
+                            <input type="text" id="editName" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-save"></i> Save
+                            </button>
+                            <button type="button" id="cancelEditBtn" class="btn btn-secondary">
+                                Cancel
+                            </button>
+                        </div>
+                    </form>
+                    <div class="profile-details" id="profileDetails">
+                        <div class="detail-item">
+                            <span class="detail-label">Full Name:</span>
+                            <span class="detail-value" id="detailName"></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Email:</span>
+                            <span class="detail-value" id="detailEmail"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="profile-section">
+                    <h3><i class="fas fa-lock"></i> Account Security</h3>
+                    <button class="btn btn-primary" id="changePasswordBtn">
+                        <i class="fas fa-key"></i> Change Password
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Change Password Modal -->
+    <div id="passwordModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>Change Password</h3>
+            <form id="passwordForm">
+                <div class="form-group">
+                    <label for="currentPassword">Current Password</label>
+                    <input type="password" id="currentPassword" placeholder="Enter current password" required>
+                </div>
+                <div class="form-group">
+                    <label for="newPassword">New Password</label>
+                    <input type="password" id="newPassword" placeholder="Enter new password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm New Password</label>
+                    <input type="password" id="confirmPassword" placeholder="Confirm new password" required>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-save"></i> Update Password
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./profile.js"></script>
+</body>
+</html>

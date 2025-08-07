@@ -1,0 +1,143 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Progress - GATE Test Series</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./profile.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>GATE EXPRESS</h2>
+        <a href="./dashboard.html">
+            <i class="fas fa-home"></i> Dashboard
+        </a>
+        <a href="./profile.html">
+            <i class="fas fa-user"></i> Profile
+        </a>
+        <a href="#" class="active">
+            <i class="fas fa-chart-line"></i> Progress
+        </a>
+        <a href="./leaderboard.html">
+            <i class="fas fa-trophy"></i> Leaderboard
+        </a>
+        <button class="logout-btn" id="logoutBtn">
+            <i class="fas fa-sign-out-alt"></i> Logout
+        </button>
+    </div>
+
+    <div class="progress-container">
+        <div class="progress-header">
+            <h1>Your Test Progress</h1>
+            <a href="./dashboard.html" class="back-btn">Back to Dashboard</a>
+        </div>
+
+        <div class="summary-cards">
+            <div class="summary-card">
+                <div class="value" id="tests-taken">0</div>
+                <div class="label">Total Tests Taken</div>
+            </div>
+            <div class="summary-card">
+                <div class="value" id="average-score">0%</div>
+                <div class="label">Average Score</div>
+            </div>
+            <div class="summary-card">
+                <div class="value" id="best-score">0%</div>
+                <div class="label">Best Score</div>
+            </div>
+        </div>
+
+        <table class="tests-table">
+            <thead>
+                <tr>
+                    <th>Test Type</th>
+                    <th>Date Taken</th>
+                    <th>Score</th>
+                    <th>Accuracy</th>
+                    <th>Time Spent</th>
+                </tr>
+            </thead>
+            <tbody id="recent-tests"></tbody>
+        </table>
+    </div>
+
+    <script src="./progress.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Progress - GATE Test Series</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="../test.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./profile.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>GATE EXPRESS</h2>
+        <a href="./dashboard.html">
+            <i class="fas fa-home"></i> Dashboard
+        </a>
+        <a href="./profile.html">
+            <i class="fas fa-user"></i> Profile
+        </a>
+        <a href="#" class="active">
+            <i class="fas fa-chart-line"></i> Progress
+        </a>
+        <a href="./leaderboard.html">
+            <i class="fas fa-trophy"></i> Leaderboard
+        </a>
+        <button class="logout-btn" id="logoutBtn">
+            <i class="fas fa-sign-out-alt"></i> Logout
+        </button>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <div class="header">
+                <h1>Your Test Progress</h1>
+            </div>
+
+            <div class="performance-summary">
+                <div class="summary-card">
+                    <h3>Total Tests Taken</h3>
+                    <div class="value" id="tests-taken">0</div>
+                </div>
+                <div class="summary-card">
+                    <h3>Average Score</h3>
+                    <div class="value" id="average-score">0%</div>
+                </div>
+                <div class="summary-card">
+                    <h3>Best Score</h3>
+                    <div class="value" id="best-score">0%</div>
+                </div>
+            </div>
+
+            <div class="progress-section">
+                <h2><i class="fas fa-history"></i> Recent Tests</h2>
+                <table class="tests-table">
+                    <thead>
+                        <tr>
+                            <th>Test Type</th>
+                            <th>Date Taken</th>
+                            <th>Score</th>
+                            <th>Accuracy</th>
+                            <th>Time Spent</th>
+                        </tr>
+                    </thead>
+                    <tbody id="recent-tests"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="./progress.js"></script>
+</body>
+</html>

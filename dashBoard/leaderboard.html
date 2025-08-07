@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard - GATE Test Series</title>
+     <link rel="icon" type="image/png" sizes="16x16" href="../test.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./profile.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>GATE EXPRESS</h2>
+        <a href="./dashboard.html">
+            <i class="fas fa-home"></i> Dashboard
+        </a>
+        <a href="./profile.html">
+            <i class="fas fa-user"></i> Profile
+        </a>
+        <a href="./progress.html" >
+            <i class="fas fa-chart-line"></i> Progress
+        </a>
+        <a href="#" class="active">
+            <i class="fas fa-trophy"></i> Leaderboard
+        </a>
+        <button class="logout-btn" id="logoutBtn">
+            <i class="fas fa-sign-out-alt"></i> Logout
+        </button>
+    </div>
+
+    <div class="leaderboard-container">
+        <div class="leaderboard-header">
+            <h1><i class="fas fa-trophy"></i> Leaderboard</h1>
+            <div>
+                <!-- <a href="./dashboard.html" class="back-btn"><i class="fas fa-arrow-left"></i> Back to Dashboard</a> -->
+                <button id="refreshBtn" class="back-btn refresh-btn"><i class="fas fa-sync-alt"></i> Refresh</button>
+            </div>
+        </div>
+
+        <table class="leaderboard-table">
+            <thead>
+                <tr>
+                    <th class="rank-cell">Rank</th>
+                    <th>User</th>
+                    <th>Tests Taken</th>
+                    <th>Average Score</th>
+                    <th>Best Score</th>
+                </tr>
+            </thead>
+            <tbody id="leaderboard-body">
+                <tr>
+                    <td colspan="5" style="text-align: center;">Loading leaderboard...</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="./leaderboard.js"></script>
+</body>
+</html>

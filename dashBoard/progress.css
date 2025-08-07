@@ -1,0 +1,357 @@
+:root {
+    --primary-color: #4a6bff;
+    --secondary-color: #f8f9fa;
+    --accent-color: #ff6b6b;
+    --text-color: #333;
+    --light-text: #777;
+    --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    background-color: #f5f7ff;
+    color: var(--text-color);
+}
+
+.sidebar {
+    width: 280px;
+    height: 100vh;
+    background: white;
+    padding: 25px 20px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.05);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar h2 {
+    color: var(--primary-color);
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.sidebar a {
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    margin: 8px 0;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: var(--transition);
+}
+
+.sidebar a:hover {
+    background-color: #f0f2ff;
+    color: var(--primary-color);
+}
+
+.sidebar a img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 12px;
+    object-fit: cover;
+}
+
+.sidebar a span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.email-display {
+    padding: 0 15px 15px;
+    font-size: 13px;
+    color: var(--light-text);
+    border-bottom: 1px solid #eee;
+    margin-bottom: 15px;
+    word-break: break-all;
+}
+
+.progress-indicator {
+    margin-top: auto;
+    background-color: #f0f2ff;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.progress-indicator i {
+    color: var(--primary-color);
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.progress-indicator span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.logout-btn {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.logout-btn:hover {
+    background-color: #ff5252;
+    transform: translateY(-2px);
+}
+
+.logout-btn i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 280px;
+    padding: 30px;
+    width: calc(100% - 280px);
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: var(--card-shadow);
+}
+
+.header h1 {
+    font-size: 28px;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.progress-section {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: var(--card-shadow);
+    margin-bottom: 30px;
+}
+
+.progress-section h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+}
+
+.progress-section h2 i {
+    margin-right: 12px;
+}
+
+.progress-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.progress-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: var(--card-shadow);
+    transition: var(--transition);
+    border-left: 4px solid var(--primary-color);
+}
+
+.progress-card h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: var(--text-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress-card h3 span {
+    color: var(--light-text);
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.progress-bar-container {
+    height: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    border-radius: 5px;
+    background: linear-gradient(90deg, var(--primary-color), #8a9eff);
+    transition: width 1s ease;
+}
+
+.progress-stats {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: var(--light-text);
+}
+
+.chart-container {
+    height: 300px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.test-list {
+    margin-top: 20px;
+}
+
+.test-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.test-item:last-child {
+    border-bottom: none;
+}
+
+.test-name {
+    display: flex;
+    align-items: center;
+}
+
+.test-name i {
+    margin-right: 10px;
+    color: var(--primary-color);
+}
+
+.test-score {
+    font-weight: 600;
+}
+
+.test-date {
+    font-size: 12px;
+    color: var(--light-text);
+}
+
+.performance-summary {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.summary-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: var(--card-shadow);
+    text-align: center;
+}
+
+.summary-card h3 {
+    font-size: 14px;
+    color: var(--light-text);
+    margin-bottom: 10px;
+}
+
+.summary-card .value {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.summary-card .subtext {
+    font-size: 12px;
+    color: var(--light-text);
+    margin-top: 5px;
+}
+
+.improvement-tip {
+    background: #fff8e6;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    border-left: 4px solid #ffc107;
+}
+
+.improvement-tip h4 {
+    color: #ff9800;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.improvement-tip h4 i {
+    margin-right: 8px;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding-bottom: 20px;
+    }
+    .container {
+        margin-left: 0;
+        width: 100%;
+        padding: 20px;
+    }
+    .performance-summary {
+        grid-template-columns: 1fr 1fr;
+    }
+    .progress-grid {
+        grid-template-columns: 1fr;
+    }
+}
+.tests-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tests-table th, 
+.tests-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.tests-table th {
+    background-color: #f8f9fa;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.tests-table tr:hover {
+    background-color: #f5f7ff;
+}
