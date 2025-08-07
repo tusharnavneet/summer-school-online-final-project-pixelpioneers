@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syllabus CSE</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="syllabusContainer" class="syllabus-container">
+        <h2>Complete GATE Syllabus</h2>
+        <button id="dashboardBtn" class="dashboard-btn">
+            <i class="fas fa-home"></i> Dashboard
+        </button>
+        
+        <ol>
+            <li data-subject="engineering-math">Engineering Mathematics</li>
+            <li data-subject="digital-logic">Digital Logic</li>
+            <li data-subject="coa">Computer Organization and Architecture</li>
+            <li data-subject="ds-algo">C Programming and Data Structures</li>
+            <li data-subject="algorithms">Algorithms</li>
+            <li data-subject="toc">Theory of Computation</li>
+            <li data-subject="compiler">Compiler Design</li>
+            <li data-subject="os">Operating System</li>
+            <li data-subject="dbms">Database Management System</li>
+            <li data-subject="networks">Computer Networks</li>
+            <li data-subject="discrete-math">Discrete Maths</li>
+            <li data-subject="aptitude">General Aptitude</li>
+        </ol>
+    </div>
+
+    <!-- Subject Detail Modal -->
+    <div id="subjectModal" class="subject-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="subject-header">
+                <div class="subject-number" id="subjectNumber">1</div>
+                <h3 class="subject-title" id="subjectTitle">Subject Title</h3>
+            </div>
+            <div class="subject-details">
+                <h4>Topics Covered:</h4>
+                <ul class="topics-list" id="topicsList">
+                    <!-- Topics will be inserted here by JavaScript -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="./syllabus.js"></script>
+</body>
+</html>
