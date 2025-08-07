@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GATE CS Chapterwise Tests</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="../test.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./chapter.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>GATE Computer Science</h1>
+            <p class="subtitle">Chapterwise Test Series</p>
+          
+        </header>
+
+        <div class="dashboard">
+            <div class="sidebar">
+                <h3><i class="fas fa-book-open"></i> Subjects</h3>
+                <button id="dashboardBtn" class="dashboard-btn">
+                    <i class="fas fa-home"></i> Dashboard
+                </button>
+                
+                <div class="subject-card active">
+                    <div class="subject-title">
+                        <span><i class="fas fa-microchip subject-icon"></i> Computer Organization</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="chapters-list">
+                        <a href="./coa/inst/inst.html" class="chapter-item active">Machine Instruction</a>
+                        <a href="./coa/alu/alu.html" class="chapter-item">ALU and Control Unit</a>
+                        <a href="./coa/inst/inst.html" class="chapter-item">Instruction Pipeline</a>
+                        <a href="./coa/memory/mem.html" class="chapter-item">Memory Hierarchy</a>
+                        <a href="./coa/io/io.html" class="chapter-item">I/O Interface</a>
+                    </div>
+                </div>
+                
+                <div class="subject-card">
+                    <div class="subject-title">
+                        <span><i class="fas fa-database subject-icon"></i> DBMS</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="chapters-list">
+                        <a href="./dbms/er/er.html" class="chapter-item">ER Model</a>
+                        <a href="./dbms/FD/fd.html" class="chapter-item">FD and Normalisation</a>
+                        <a href="./dbms/sql/sql.html" class="chapter-item">SQL</a>
+                        <a href="./dbms/transaction/tran.html" class="chapter-item">Transactions</a>
+                        <a href="./dbms/indexing/index.html" class="chapter-item">Indexing</a>
+                    </div>
+                </div>
+                
+                <div class="subject-card">
+                    <div class="subject-title">
+                        <span><i class="fas fa-desktop subject-icon"></i> Operating Systems</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="chapters-list">
+                        <a href="./os/process/process.html" class="chapter-item">Processes</a>
+                        <a href="./os/cpu_schedule/cpu.html" class="chapter-item">CPU Scheduling</a>
+                        <a href="./os/synchronisation/sync.html" class="chapter-item">Synchronisation</a>
+                        <a href="./os/deadlock/dead.html" class="chapter-item">Deadlock</a>
+                        <a href="./os/mmu/mmu.html" class="chapter-item">Memory Management</a>
+                        <a href="./os/file/file.html" class="chapter-item">File Systems</a>
+                    </div>
+                </div>
+                
+                <div class="subject-card">
+                    <div class="subject-title">
+                        <span><i class="fas fa-project-diagram subject-icon"></i> Computer Networks</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="chapters-list">
+                        <a href="tests/cn-network-models.html" class="chapter-item">IP addressing</a>
+                        <a href="tests/cn-data-link-layer.html" class="chapter-item">Data Link Layer</a>
+                        <a href="tests/cn-network-layer.html" class="chapter-item">Network Layer</a>
+                        <a href="tests/cn-transport-layer.html" class="chapter-item">Transport Layer</a>
+                        <a href="tests/cn-application-layer.html" class="chapter-item">Application Layer</a>
+                    </div>
+                </div>
+                
+                <div class="subject-card">
+                    <div class="subject-title">
+                        <span><i class="fas fa-brain subject-icon"></i> Theory of Computation</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="chapters-list">
+                        <a href="./toc/regular/reg.html" class="chapter-item">Regular Languages</a>
+                        <a href="./toc/CFG/cfg.html" class="chapter-item">Context Free Grammars</a>
+                        <a href="./toc/PDA/pda.html" class="chapter-item">Pushdown Automata</a>
+                        <a href="./toc/TM/tm.html" class="chapter-item">Turing Machines</a>
+                        <a href="./toc/Undecide/un.html" class="chapter-item">Undecidability</a>
+                    </div>
+                </div>
+                
+                <div class="subject-card">
+                    <div class="subject-title">
+                        <span><i class="fas fa-sort-amount-up subject-icon"></i> Data Structures</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="chapters-list">
+                        <a href="./ds/arrays/arr.html" class="chapter-item">Arrays</a>
+                        <a href="./ds/linkedlist/ll.html" class="chapter-item">Linked Lists</a>
+                        <a href="./ds/trees/tree.html" class="chapter-item">Trees</a>
+                        <a href="./ds/graph/graph.html" class="chapter-item">Graphs</a>
+                        
+                        <a href="./ds/hashing/hash.html" class="chapter-item">Hashing</a>
+                    </div>
+                </div>
+                
+                <div class="subject-card">
+                    <div class="subject-title">
+                        <span><i class="fas fa-calculator subject-icon"></i> Engineering Maths</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="chapters-list">
+                        <a href="./maths/linear/linear.html" class="chapter-item">Linear Algebra</a>
+                        <a href="./maths/calculus/cal.html" class="chapter-item">Calculus</a>
+                        <a href="./maths/probability/prob.html" class="chapter-item">Probability & Stats</a>
+                    </div>
+                </div>
+
+                <div class="subject-card">
+                    <div class="subject-title">
+                        <span><i class="fas fa-shapes subject-icon"></i> Discrete Maths</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="chapters-list">
+                        <a href="./dm/set_theory/set.html" class="chapter-item">Set Theory</a>
+                        <a href="./dm/graph/graph.html" class="chapter-item">Graph Theory</a>
+                        <a href="./dm/combinatorics/comb.html" class="chapter-item">Combinatorics</a>
+                        <a href="./dm/logic/logic.html" class="chapter-item">Propositional Logic</a>
+                    
+                    </div>
+                </div>
+                
+                <div class="subject-card">
+                    <div class="subject-title">
+                        <span><i class="fas fa-project-diagram subject-icon"></i> Digital Logic</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="chapters-list">
+                        <a href="./dl/number/number.html" class="chapter-item">Number Systems</a>
+                        <a href="./dl/logicgate/logic.html" class="chapter-item">Boolean Algebra</a>
+                        
+                        <a href="./dl/combinational/comb.html" class="chapter-item">Combinational Circuits</a>
+                        <a href="./dl/sequential/seq.html" class="chapter-item">Sequential Circuits</a>
+                    </div>
+                </div>
+                
+                <div class="subject-card">
+                    <div class="subject-title">
+                        <span><i class="fas fa-code subject-icon"></i> Compiler Design</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="chapters-list">
+                        <a href="./cd/lexical/lex.html" class="chapter-item">Lexical Analysis</a>
+                        <a href="./cd/syntax/syn.html" class="chapter-item">Syntax Analysis</a>
+                        
+                        <a href="./cd/icg/icg.html" class="chapter-item">Intermediate Code</a>
+                        
+                        <a href="./cd/sdt/sdt.html" class="chapter-item">Syntax Directed Translation</a>
+                    </div>
+                </div>
+                <div class="subject-card">
+                    <div class="subject-title">
+                        <span><i class="fas fa-copyright subject-icon"></i> C Programming</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="chapters-list">
+                    
+                        <a href="./cp/operators/oper.html" class="chapter-item">Operators & Expressions</a>
+                        <a href="./cp/loops/loop.html" class="chapter-item">Control Flow</a>
+                        <a href="./cp/functions/fun.html" class="chapter-item">Functions</a>
+                        <a href="./cp/arrays/arr.html" class="chapter-item">Arrays & Pointers</a>
+                        
+                        <a href="./cp/strings/string.html" class="chapter-item">Strings</a>
+                        <a href="./cp/structure/stru.html" class="chapter-item">Structures & Unions</a>
+                    </div>
+                </div>
+                <div class="subject-card">
+                    <div class="subject-title">
+                        <span><i class="fas fa-algorithm subject-icon"></i> Algorithms</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="chapters-list">
+                        <a href="./algo/algo_analysis/algo.html" class="chapter-item">Algorithm Analysis</a>
+                        <a href="./algo/soting/sort.html" class="chapter-item">Sorting Algorithms</a>
+                        <a href="./algo/searching/search.html" class="chapter-item">Searching Algorithms</a>
+                        <a href="./algo/DandC/dandc.html" class="chapter-item">Divide & Conquer</a>
+                        <a href="./algo/greedy/greedy.html" class="chapter-item">Greedy Algorithms</a>
+                        <a href="./algo/dynamic/dyna.html" class="chapter-item">Dynamic Programming</a>
+                        <a href="./algo/backtrack/backtrack.html" class="chapter-item">Backtracking</a>
+                        <a href="./algo/graph/graph.html" class="chapter-item">Graph Algorithms</a>
+                    </div>
+                </div>
+                
+                <div class="subject-card">
+                    <div class="subject-title">
+                        <span><i class="fas fa-lightbulb subject-icon"></i> Aptitude</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="chapters-list">
+                        <a href="./aptitude/verbal/verbal.html" class="chapter-item">Verbal Ability</a>
+                        <a href="./aptitude/numerical/numerical.html" class="chapter-item">Numerical Ability</a>
+                        <a href="./aptitude/resoning/reasoning.html" class="chapter-item">Logical Reasoning</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-content">
+                <div class="test-info">
+                    <h2><i class="fas fa-microchip"></i> Computer Organization</h2>
+                    <p>Chapter: Number Systems</p>
+                    
+                    <div class="test-stats">
+                        <div class="stat-card">
+                            <div class="stat-value">15</div>
+                            <div class="stat-label">Questions</div>
+                        </div>
+                       
+                        <div class="stat-card">
+                            <div class="stat-value">30</div>
+                            <div class="stat-label">Minutes</div>
+                        </div>
+                    </div>
+                    
+                    <p class="fas fa-microchip">Test your understanding</p>
+                </div>
+                
+                <div class="test-controls">
+                    <a href="./coa/alu/alu.html" class="btn btn-primary">
+                        <i class="fas fa-play btn-icon"></i> Start Test
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="./chapter.js"></script>
+</body>
+</html>
