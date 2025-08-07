@@ -1,0 +1,139 @@
+{
+    "questions":[
+        {
+            "question":"Given the following syntax-directed translation rules:<br><br>Rule 1: R→AB{B.i=R.i−1;A.i=B.i;R.i=A.i+1;}<br>Rule 2: P→CD{P.i=C.i+D.i;D.i=C.i+2;}<br>Rule 3: Q→EF{Q.i=E.i+F.i;}<br><br>Which ONE is the CORRECT option among the following?",
+            "options":["Rule 1 is S-attributed and L-attributed; Rule 2 is S-attributed and not L-attributed; Rule 3 is neither S-attributed nor L-attributed.","Rule 1 is neither S-attributed nor L-attributed; Rule 2 is S-attributed and L-attributed; Rule 3 is S-attributed and L-attributed.","Rule 1 is S-attributed and not L-attributed; Rule 2 is not S-attributed and is L-attributed; Rule 3 is S-attributed and L-attributed.","Rule 1 is neither S-attributed nor L-attributed; Rule 2 is not S-attributed and is L-attributed; Rule 3 is S-attributed and L-attributed."],
+            "answer":"Rule 1 is neither S-attributed nor L-attributed; Rule 2 is not S-attributed and is L-attributed; Rule 3 is S-attributed and L-attributed.",
+            "marks":2
+        },{
+            "question":"Consider the following statements about the use of backpatching in a compiler for intermediate code generation:<br><br>(I) Backpatching can be used to generate code for Boolean expression in one pass.<br>(II) Backpatching can be used to generate code for flow-of-control statements in one pass.<br><br>Which ONE of the following options is CORRECT?",
+            "options":["Only (I) is correct.","Only (II) is correct.","Both (I) and (II) are correct.","Neither (I) nor (II) is correct."],
+            "answer":"Both (I) and (II) are correct.",
+            "marks":1
+        },{
+            "question":"Refer to the given 3-address code sequence. This code sequence is split into basic blocks. The number of basic blocks is _________. (Answer in integer)",
+            "image":"../questionbank/cd1.png",
+            "type":"numerical",
+            "answer":6,
+            "marks":2
+        },{
+            "question":"Which of the following statement(s) is/are TRUE while computing First and Follow during top-down parsing by a compiler?",
+            "options":["For a production A→ϵ,ϵ will be added to First(A).","If there is any input right end marker, it will be added to First(S), where S is the start symbol.","For a production A→ϵ,ϵ will be added to Follow(A).","If there is any input right end marker, it will be added to Follow(S), where S is the start symbol."],
+            "answer":["For a production A→ϵ,ϵ will be added to First(A).","If there is any input right end marker, it will be added to Follow(S), where S is the start symbol."],
+            "marks":2
+        },{
+            "question":"Which ONE of the following techniques used in compiler code optimization uses live variable analysis?",
+            "options":["Run-time function call management","Register assignment to variables","Strength reduction","Constant folding"],
+            "answer":"Register assignment to variables",
+            "marks":1
+        },{
+            "question":"Given \"MMLK\" as the input, which one of the following options is the CORRECT value computed by the SDD (in the attribute S.val)?",
+            "image":"../questionbank/cd2.png",
+            "options":["45","55","65","75"],
+            "answer":"45",
+            "marks":2
+        },{
+            "question":"Which of the following is/are Bottom-Up Parser(s)?",
+            "options":["Shift-reduce Parser","LL(1) Parser","Predictive Parser","LR Parser"],
+            "answer":["Shift-reduce Parser","LR Parser"],
+            "marks":1
+        },{
+            "question":"Consider the syntax directed translation given by the following grammar and semantic rules. Here N, I, F and B are non-terminals. N is the starting non-terminal, and #, 0 and 1 are lexical tokens corresponding to input letters \"#\",\"0\"and\"1\", respectively. X.val denotes the synthesized attribute (a numeric value) associated with a non-terminal X.I1 and F1 denote occurrences of I and F on the right hand side of a production, respectively. For the tokens 0 and 1, 0.val=0 and 1.val=1.The value computed by the translation scheme for the input string 10#011 is ____ (Rounded off to three decimal places).",
+            "image":"../questionbank/cd3.png",
+            "type":"numerical",
+            "answer":2.375,
+            "marks":2
+        },{
+            "question":"Consider the control flow graph shown.Which one of the following choices correctly lists the set of live variables at the exit point of each basic block?",
+            "image":"../questionbank/cd4.png",
+            "options":["B1: {}, B2: {a}, B3: {a}, B4: {a}","B1: {i, j}, B2: {a}, B3: {a}, B4: {i}","B1: {a, i, j}, B2: {a, i, j}, B3: {a, i}, B4: {a}","B1: {a, i, j}, B2: {a, j}, B3: {a, j}, B4: {a, i, j}"],
+            "answer":"B1: {a, i, j}, B2: {a, j}, B3: {a, j}, B4: {a, i, j}",
+            "marks":2
+        },{
+            "question":"Consider the following statements regarding the front-end and back-end of a compiler.<br><br>S1: The front-end includes phases that are independent of the target hardware.<br>S2: The back-end includes phases that are specific to the target hardware.<br>S3: The back-end includes phases that are specific to the programming language used in the source code.<br><br>Identify the CORRECT option.",
+            "options":["Only S1 IS TRUE","Only S1 and S2 are TRUE","S1, S2, and S3 are all TRUE.","Only S1 and S3 are TRUE"],
+            "answer":"Only S1 and S2 are TRUE",
+            "marks":1
+        },{
+            "question":"Consider the following grammar along with translation rules.<br>Here # and % are operators and id is a token that represents an integer and id.val  represents the corresponding integer value. The set of non-terminals is {S,T,R,P} and a subscripted non-terminal indicates an instance of the non-terminal.Using this translation scheme, the computed value of S.val for root of the parse tree for the expression 20#10%5#8%2%2 is_____",
+            "image":"../questionbank/cd5.png",
+            "answer":80,
+            "marks":2
+        },{
+            "question":"Consider the augmented grammar with {+,∗,(,),id} as the set of terminals.<br><br>S′→S<br>S→S+R∣R<br>R→R∗P∣P<br>P→(S)∣id<br><br>If I0 is the set of two LR(0) items {[S′→S.],[S→S.+R]}, then goto(closure(I0),+) contains exactly ______ items.",
+            "type":"numerical",
+            "answer":5,
+            "marks":2
+        },{
+            "question":"Which one of the following statements is TRUE?",
+            "options":["The LALR(1) parser for a grammar G cannot have reduce-reduce conflict if the LR(1) parser for G does not have reduce-reduce conflict.","Symbol table is accessed only during the lexical analysis phase.","LR(1) parsing is sufficient for deterministic context-free languages.","Data flow analysis is necessary for run-time memory management."],
+            "answer":"LR(1) parsing is sufficient for deterministic context-free languages.",
+            "marks":1
+        },{
+            "question":"Consider the following augmented grammar with {#,@,<,>,a,b,c} as the set of terminals.<br><br>S′→S<br>S→S#cS<br>S→SS<br>S→S@<br>S→< S > <br>S→a<br>S→b<br>S→c<br><br>Let I0=CLOSURE({S′→∙S}). The number of items in the set GOTO(GOTO(I0 <),<) is ___________",
+            "type":"numerical",
+            "answer":8,
+            "marks":2
+        },{
+            "question":"For a statement S in a program, in the context of liveness analysis, the following sets are defined:<br><br>USE(S) : the set of variables used in S<br>IN(S) : the set of variables that are live at the entry of S<br>OUT(S) : the set of variables that are live at the exit of S<br><br>Consider a basic block that consists of two statements, S1 followed by S2. Which one of the following statements is correct?",
+            "options":["OUT(S1) = IN (S2)","OUT (S1) = IN(S1) ∪ USE(S1)","OUT(S1)=IN(S2) ∪ OUT(S2)","OUT(S1) = USE(S1) ∪ IN(S2)"],
+            "answer":"OUT(S1) = IN (S2)",
+            "marks":1
+        },{
+            "question":"Consider the following statements.<br><br>S1: The sequence of procedure calls corresponds to a preorder traversal of the activation tree.<br>S2: The sequence of procedure returns corresponds to a postorder traversal of the activation tree.<br><br>Which one of the following options is correct?",
+            "options":["S1 is true and S2 is false","S1 is false and S2 is true","S1 is true and S2 is true","S1 is false and S2 is false"],
+            "answer":"S1 is true and S2 is true",
+            "marks":1
+        },{
+            "question":"The number of tokens in the following C code segment is",
+            "image":"../questionbank/cd6.png",
+            "options":["27","26","28","29"],
+            "answer":"26",
+            "marks":1
+        },{
+            "question":"Consider the productions A→PQ and A→XY. Each of the five non-terminals A,P,Q,X, and Y has two attributes: s is a synthesized attribute, and i is an inherited attribute. Consider the following rules.<br><br>Rule 1: P.i=A.i+2, Q.i=P.i+A.i, and A.s=P.s+Q.s<br>Rule 2: X.i=A.i+Y.s and Y.i=X.s+A.i<br><br>Which one of the following is TRUE?",
+            "options":["Only Rule 2 is L-attributed.","Only Rule 1 is L-attributed.","Neither Rule 1 nor Rule 2 is L-attributed.","Both Rule 1 and Rule 2 are L-attributed."],
+            "answer":"Only Rule 1 is L-attributed.",
+            "marks":2
+        },{
+            "question":"Consider the following grammar.<br><br>S→aSB∣d<br>B→b<br><br>The number of reduction steps taken by a bottom-up parser while accepting the string \"aaadbbb\" is___________.",
+            "type":"numerical",
+            "answer":7,
+            "marks":2
+        },{
+            "question":"Consider the following statements.<br>I. Symbol table is accessed only during lexical analysis and syntax analysis.<br>II. Compilers for programming languages that support recursion necessarily need heap storage for memory allocation in the run-time environment.<br>III. Errors violating the condition 'any variable must be declared before its use' are detected during syntax analysis.<br><br>Which of the above statements is/are TRUE?",
+            "options":["I only","I and III only","II only","None of I, II and III"],
+            "answer":"None of I, II and III",
+            "marks":1
+        },{
+            "question":"Consider the augmented grammar given below:<br><br>S′→S<br>S→< L >∣id<br>L→L,S∣S<br><br>Let I0=CLOSURE({[S′→⋅S]}). The number of items in the set GOTO(I0,<) is __________.",
+            "type":"numerical",
+            "answer":5,
+            "marks":2
+        },{
+            "question":"Which one of the following kinds of derivation is used by LR parsers?",
+            "options":["Leftmost","Leftmost in reverse","Rightmost","Rightmost in reverse"],
+            "answer":"Rightmost in reverse",
+            "marks":1
+        },
+        {
+            "question":"A lexical analyzer uses the following patterns to recognize three tokens T1 , T2 and T3 over the alphabet {a,b,c}.<br><br>T1 : a?(b∣c)*a<br>T2 : b?(a∣c)*b<br>T3 : c?(b∣a)*c<br>Note that 'x?' means 0 or 1 occurrence of the symbol x.<br> Note also that the analyzer outputs the token that matches the longest possible prefix.If the string \"bbaacabc\" is processed by the analyzer, which one of the following is the sequence of tokens it outputs?",
+            "options":["T1T2T3","T1T1T3","T2T1T3","T3T3"],
+            "answer":"T3T3",
+            "marks":2
+        },
+        {
+            "question":"Which one of the following statements is FALSE?",
+            "options":["Context-free grammar can be used to specify both lexical and syntax rules.","Type checking is done before parsing.","High-level language programs can be translated to different Intermediate Representations.","Arguments to a function can be passed using the program stack."],
+            "answer":"Type checking is done before parsing.",
+            "marks":2
+        },
+        {
+            "question":"Match the following according to input (from the left column) to the complier phase (in the right column) that processes it.",
+            "image":"../questionbank/cd7.png",
+            "options":["P-(ii),Q-(iii), R-(iv), S-(i)","P-(ii),Q-(i), R-(iii), S-(iv)","P-(iii),Q-(iv), R-(i), S-(ii)","P-(i),Q-(iv), R-(ii), S-(iii)"],
+            "answer":"P-(iii),Q-(iv), R-(i), S-(ii)",
+            "marks":2
+        }
+    ]
+}
