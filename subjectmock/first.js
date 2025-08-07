@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const testOptionsSection = document.getElementById('testOptions');
     
     let selectedTestPage = null;
+    
 
     // Add click event to each subject card
     subjectCards.forEach(card => {
