@@ -1,0 +1,232 @@
+:root {
+    --primary-color: #4a6bff;
+    --secondary-color: #6c5ce7;
+    --accent-color: #00cec9;
+    --light-bg: #f5f7fa;
+    --dark-text: #2c3e50;
+    --light-text: #7f8c8d;
+    --white: #ffffff;
+    --shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--light-bg);
+    color: var(--dark-text);
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+header p {
+    color: var(--light-text);
+    font-size: 1.1rem;
+}
+
+.subject-selection {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.subject-card {
+    background: var(--white);
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.subject-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.subject-card.selected {
+    border: 3px solid var(--primary-color);
+    background-color: #f0f4ff;
+}
+
+.subject-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.subject-card p {
+    color: var(--light-text);
+    margin-bottom: 20px;
+}
+
+.subject-card .topics {
+    margin-bottom: 20px;
+}
+
+.subject-card .topics span {
+    display: inline-block;
+    background-color: #eef2ff;
+    color: var(--primary-color);
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.subject-card .btn {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.subject-card .btn:hover {
+    background-color: var(--secondary-color);
+}
+
+.subject-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(to bottom, var(--primary-color), var(--accent-color));
+}
+
+.test-options {
+    background: var(--white);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: var(--shadow);
+    margin-top: 40px;
+    text-align: center;
+}
+
+.test-options h2 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.start-test-btn {
+    display: inline-block;
+    width: 200px;
+    margin: 20px auto 0;
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+}
+
+.start-test-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(74, 107, 255, 0.3);
+}
+
+.start-test-btn:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+.selection-info {
+    color: var(--primary-color);
+    font-weight: 500;
+    margin-bottom: 15px;
+    min-height: 24px;
+}
+
+@media (max-width: 768px) {
+    .subject-selection {
+        grid-template-columns: 1fr;
+    }
+    
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    .test-options {
+        padding: 20px;
+    }
+}
+/* Dashboard Button Styles */
+.dashboard-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    margin: 15px 0;
+    background: #4a6bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    gap: 8px;
+}
+
+.dashboard-btn:hover {
+    background: #3a5bef;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.dashboard-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}
+
+/* If you want it to stand out more in the header */
+header .dashboard-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #ffffff;
+    color: #4a6bff;
+    border: 2px solid #4a6bff;
+}
+
+header .dashboard-btn:hover {
+    background: #4a6bff;
+    color: white;
+}
