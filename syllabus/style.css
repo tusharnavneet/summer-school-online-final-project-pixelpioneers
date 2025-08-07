@@ -1,0 +1,259 @@
+  /* Base Styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 20px;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+/* Syllabus Container */
+.syllabus-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Header */
+.syllabus-container h2 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #4a6bff;
+    font-size: 28px;
+}
+
+/* Syllabus List */
+.syllabus-container ol {
+    counter-reset: syllabus-counter;
+    padding-left: 0;
+}
+
+.syllabus-container li {
+    position: relative;
+    list-style: none;
+    padding: 15px 15px 15px 60px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    border-left: 4px solid transparent;
+    cursor: pointer;
+}
+
+.syllabus-container li:hover {
+    background-color: #eef2ff;
+    transform: translateX(5px);
+    border-left: 4px solid #4a6bff;
+}
+
+.syllabus-container li::before {
+    counter-increment: syllabus-counter;
+    content: counter(syllabus-counter);
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #4a6bff;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(74, 107, 255, 0.3);
+}
+
+/* Alternate colors for odd/even items */
+.syllabus-container li:nth-child(odd)::before {
+    background: #4a6bff;
+}
+
+.syllabus-container li:nth-child(even)::before {
+    background: #6c5ce7;
+}
+
+/* Subject Detail Modal */
+.subject-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.3s ease-out;
+}
+
+.modal-content {
+    background: white;
+    width: 80%;
+    max-width: 700px;
+    max-height: 80vh;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.3);
+    overflow-y: auto;
+    position: relative;
+}
+
+.close-modal {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #7f8c8d;
+    transition: color 0.3s;
+}
+
+.close-modal:hover {
+    color: #e74c3c;
+}
+
+.subject-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #f1f1f1;
+}
+
+.subject-number {
+    background: #4a6bff;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+.subject-title {
+    font-size: 24px;
+    margin: 0;
+    color: #2c3e50;
+}
+
+.subject-details {
+    margin-top: 20px;
+}
+
+.topics-list {
+    columns: 2;
+    column-gap: 30px;
+}
+
+.topics-list li {
+    margin-bottom: 8px;
+    break-inside: avoid;
+    padding-left: 20px;
+    position: relative;
+}
+
+.topics-list li::before {
+    content: "•";
+    color: #4a6bff;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .syllabus-container {
+        padding: 20px;
+        margin: 0 15px;
+    }
+    
+    .syllabus-container h2 {
+        font-size: 24px;
+    }
+    
+    .syllabus-container li {
+        padding: 12px 12px 12px 50px;
+        font-size: 15px;
+    }
+    
+    .syllabus-container li::before {
+        width: 25px;
+        height: 25px;
+        font-size: 14px;
+    }
+
+    .modal-content {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .topics-list {
+        columns: 1;
+    }
+}
+
+/* Dashboard Button Styles */
+.dashboard-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    margin: 15px 0;
+    background: #4a6bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    gap: 8px;
+}
+
+.dashboard-btn:hover {
+    background: #3a5bef;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.dashboard-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}
+
+/* If you want it to stand out more in the header */
+header .dashboard-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #ffffff;
+    color: #4a6bff;
+    border: 2px solid #4a6bff;
+}
+
+header .dashboard-btn:hover {
+    background: #4a6bff;
+    color: white;
+}
